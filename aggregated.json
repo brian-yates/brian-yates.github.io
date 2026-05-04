@@ -1,0 +1,116 @@
+[
+  {
+    "procedureName": "one",
+    "procedure": "Acknowledge + gather essentials\n\n- First send a reply to the customer. Your message should contain the following: Greet and introduce yourself. Confirm that you will be taking over helping them and have reviewed the conversation so far. Gather additional information needed to begin specialist support. Let them know that after they confirm additional details, you can start investigating how to solve their problem.\n\n- Then set the ticket priority to High and ticket status to in progress\n",
+    "totals": {
+      "totalTickets": 5,
+      "totalTicketsMissingSuggestedMessages": 0,
+      "totalTicketsMissingRequiredActions": 1,
+      "totalTicketsWithInvalidActions": 0,
+      "totalSuggestedMessageScore": 37
+    },
+    "data": [
+      {
+        "comment": "Hello, I recently tried to use a digital coupon from my Kroger account during checkout, but it did not apply to my order. I made sure the coupon was clipped and the items matched the coupon requirements. Can you please help me resolve this issue and ensure I receive the discount? Thank you.",
+        "suggestedMessage": "Hello, my name is Jinfan Zhang and I'll be assisting you with your coupon issue. I've reviewed your message and understand that your digital coupon did not apply at checkout, even though you clipped it and met the requirements. To help resolve this, could you please provide your order number and the specific coupon you tried to use? Once I have these details, I can start investigating and work on a solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 0,
+        "suggestedMessageRating": 9,
+        "ratingRationale": "The message excellently fulfills the greeting, introduction, confirmation of review, and information gathering requirements. It clearly communicates next steps and is well-tailored to the ticket. Minor deduction because it doesn't explicitly state the backend actions (setting priority/status), though this may be a separate procedural step."
+      },
+      {
+        "comment": "I've been charged twice for my Netflix subscription this month and I can't figure out why. My bank statement shows two separate charges on different dates. Could someone please look into this and refund the duplicate charge? I've been a loyal customer for over 3 years.",
+        "suggestedMessage": "Hello, my name is Jinfan Zhang and I'll be assisting you with your billing concern. Thank you for reaching out and for being a loyal customer for over 3 years. I've reviewed your message and understand you've been charged twice for your Netflix subscription this month. To help investigate and resolve this, could you please provide the dates and amounts of both charges as they appear on your bank statement? Once I have this information, I can look into the duplicate charge and assist you further.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 1,
+        "suggestedMessageRating": 9,
+        "ratingRationale": "Excellent execution of all communication requirements: introduces self, confirms review and takeover, gathers relevant specific details, and sets clear expectations. Tone is professional and empathetic. Only minor deduction because the message doesn't explicitly reference the ticket priority/status changes, though these appear to be backend system actions rather than customer-facing message requirements."
+      },
+      {
+        "comment": "My Amazon Prime package was supposed to arrive yesterday but the tracking shows it's stuck in transit for the past 4 days. I need these items for a birthday party this weekend. Can you please expedite the delivery or let me know what happened to my order?",
+        "suggestedMessage": "I'm sorry to hear your package is delayed, especially since you need it for a birthday party. I'll look into the status of your order right away and see what can be done to expedite the delivery. I'll update you as soon as I have more information.",
+        "hasPerfectActions": false,
+        "hasCorrectNumberOfActions": false,
+        "hasValidTicketPriorityAction": false,
+        "hasValidTicketStatusAction": false,
+        "hasInvalidAction": false,
+        "actions": [],
+        "index": 2,
+        "suggestedMessageRating": 3,
+        "ratingRationale": "The message lacks multiple critical procedural elements: no greeting/introduction, no confirmation of taking over, no mention of reviewing conversation, and critically, no attempt to gather essential information needed for specialist support. While empathetic and acknowledging the issue, it fails to follow the structured 'Acknowledge + gather essentials' framework required by the procedure."
+      },
+      {
+        "comment": "I'm having trouble logging into my Bank of America mobile app after the recent update. It keeps saying my credentials are invalid even though I'm using the correct username and password. This is really frustrating as I need to pay bills today. Please help!",
+        "suggestedMessage": "Hello, my name is Jinfan Zhang and I'll be assisting you with your login issue. I've reviewed your message and understand how urgent this is for you. To help you further, could you please confirm if you've recently changed your password or if you've tried resetting it since the update? Any additional details about error messages or steps you've already taken would be helpful. Once I have this information, I can start investigating the issue for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 3,
+        "suggestedMessageRating": 7,
+        "ratingRationale": "The message excellently follows the reply composition requirements—greeting, introduction, confirmation of review, empathetic acknowledgment, targeted information gathering, and clear next steps signaling. It's highly relevant and appropriate for the ticket. However, it omits or doesn't reference the second procedural requirement to set ticket priority to High and status to in progress. If message text is the sole focus, this warrants 8-9; the score of 7 accounts for incomplete procedural coverage."
+      },
+      {
+        "comment": "The pizza I ordered from your store was completely cold when it arrived, and the toppings were all wrong. I specifically asked for no mushrooms due to allergies, but the pizza was covered in them. I'd like a full refund since I couldn't eat it.",
+        "suggestedMessage": "Hello, my name is Jinfan Zhang and I'll be assisting you with your order issue. I've reviewed your message and understand that your pizza arrived cold and with the wrong toppings, including mushrooms, which you are allergic to. I'm very sorry for this experience. To help resolve this quickly, could you please confirm your order number and the delivery address? Once I have these details, I can start investigating your refund request.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 4,
+        "suggestedMessageRating": 9,
+        "ratingRationale": "The message excellently covers all required communication elements: greeting, introduction, confirmation of takeover, demonstration of review, gathering of essentials, and clear next steps. It's empathetic and directly addresses the customer's concern. The only minor ambiguity is whether the backend ticket status/priority changes are being handled separately or should be explicitly mentioned, but the procedure suggests these are separate actions ('Then set the ticket...'), so the message itself is complete."
+      }
+    ]
+  }
+]

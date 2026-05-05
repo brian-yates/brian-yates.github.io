@@ -469,7 +469,7 @@
         ],
         "index": 22,
         "suggestedMessageRating": 10,
-        "suggestedMessageRationale": "Matches the acknowledgment template exactly and remains appropriately general."
+        "suggestedMessageRationale": "Matches the prescribed acknowledgment template exactly and is appropriately generic."
       },
       {
         "comment": "My food delivery from Grubhub arrived completely cold and the order was wrong. I ordered chicken teriyaki but received beef instead, and I'm allergic to beef. This is both disappointing and potentially dangerous. I need a full refund and want to report this serious error.",
@@ -5326,6 +5326,2219 @@
         "index": 99,
         "suggestedMessageRating": 9,
         "suggestedMessageRationale": "Greets, takes ownership, references review, requests details, and explains next steps clearly."
+      }
+    ]
+  },
+  {
+    "procedureName": "six",
+    "procedure": "Acknowledge + gather essentials\n\nSend a reply to the customer. Your message should contain the following: Greet and introduce yourself. Confirm that you will be taking over helping them and have reviewed the conversation so far. Gather additional information needed to begin specialist support. Let them know that after they confirm additional details, you can start investigating how to solve their problem.\n\nSet the ticket priority to High and ticket status to In Progress.",
+    "totals": {
+      "totalTickets": 100,
+      "totalTicketsMissingSuggestedMessages": 0,
+      "totalTicketsMissingRequiredActions": 0,
+      "totalTicketsWithInvalidActions": 0,
+      "totalSuggestedMessageScore": 921
+    },
+    "data": [
+      {
+        "comment": "I've been a Netflix subscriber for over 3 years, but I'm having trouble streaming shows on my smart TV. The video keeps buffering every few minutes even though my internet connection is fine. Could you please help me troubleshoot this issue or escalate it to your technical team?",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you with your Netflix streaming issue. I've reviewed your message and understand that you've been experiencing buffering on your smart TV despite having a stable internet connection. To help our technical team investigate further, could you please provide the following details:\n\n\nThe model and brand of your smart TV\nWhether the issue occurs on other devices\nIf you've tried restarting your TV or router\nAny error messages you see\n\n\nOnce I have this information, I'll escalate your case to our technical specialists for a deeper investigation.\n",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 0,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Greets, takes ownership, requests details, and explains next steps clearly."
+      },
+      {
+        "comment": "My Amazon Prime order was supposed to arrive yesterday but it still shows as 'out for delivery' with no updates. I need these items for a birthday party tomorrow and I'm really disappointed with the delay. Can you please track my package and provide an accurate delivery estimate?",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you with your Amazon Prime order. I understand how important it is to receive your items in time for the birthday party, and I apologize for the delay. To help track your package and provide an accurate delivery estimate, could you please confirm your order number or share any additional details about the items ordered? Once I have this information, I can begin investigating and keep you updated on the progress.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 1,
+        "suggestedMessageRating": 8,
+        "suggestedMessageRationale": "Greets, introduces, requests details, but doesn’t clearly mention reviewing prior conversation."
+      },
+      {
+        "comment": "I ordered food through DoorDash last night and the driver delivered it to the wrong address. I tried calling the restaurant but they said to contact DoorDash directly. I paid $45 for food I never received and would like either a full refund or a replacement order sent to the correct address.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your DoorDash order issue. I've reviewed your message and understand that your order was delivered to the wrong address. To help resolve this as quickly as possible, could you please confirm the delivery address you intended to use and provide any additional details about the order (such as the order number or items ordered)? Once I have this information, I can begin investigating how to best resolve your request.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 2,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "Hello, I'm writing to complain about the poor customer service I received at your downtown location yesterday. The staff was rude and dismissive when I asked for help finding a product. This is not the experience I expect from your brand and I hope you can address this with your team.",
+        "suggestedMessage": "Hello William, thank you for reaching out and sharing your experience. My name is Brian, and I will be assisting you with your concern. I have reviewed your message and want to ensure we address this properly. Could you please provide a bit more detail about your visit, such as the time you were at the downtown location and the product you were looking for? Once I have this information, I can begin investigating and work with our team to resolve this issue.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 3,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "I purchased a laptop from Best Buy three weeks ago and it's already having major performance issues. The screen flickers constantly and it crashes multiple times per day. I have the extended warranty and would like to exchange it for a working unit as soon as possible.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you with your laptop issue. I've reviewed your message and understand you're experiencing screen flickering and frequent crashes, and would like to exchange your device under your extended warranty. To help you further, could you please provide the laptop's serial number and a copy of your purchase receipt? Once I have these details, I can begin investigating the best way to resolve this for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 4,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next-step investigation clearly."
+      },
+      {
+        "comment": "My Spotify Premium subscription was charged twice this month and I can't figure out why. I only have one account and haven't made any changes to my plan. Could you please look into this billing error and refund the duplicate charge to my credit card?",
+        "suggestedMessage": "Hello William, \n\nThank you for reaching out. My name is Brian and I’ll be assisting you with your billing concern. I’ve reviewed your message and understand you were charged twice for your Spotify Premium subscription this month. To help resolve this quickly, could you please confirm the last four digits of the card that was charged and the dates of both transactions? Once I have this information, I’ll begin investigating and work on a solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 5,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps; ticket context is unavailable."
+      },
+      {
+        "comment": "I've been trying to cancel my gym membership for the past month but keep getting the runaround from your staff. Every time I call, they tell me I need to come in person, but when I visit, they say I need to call. This is extremely frustrating and I want this resolved immediately.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you from here. I’ve reviewed your conversation and understand how frustrating this has been. To help resolve your membership cancellation as quickly as possible, could you please confirm your membership ID or the email address associated with your account? Once I have this information, I’ll begin investigating and work to get this sorted for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 6,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and investigation next steps."
+      },
+      {
+        "comment": "The iPhone case I ordered from your website doesn't fit my phone properly despite being labeled as compatible with iPhone 14. The cutouts for the camera are misaligned and the charging port is partially blocked. I'd like to return this item and get my money back since it's clearly mislabeled.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you with your return request. I've reviewed your message and understand that the iPhone case you received does not fit your phone as expected. To help you further and start the return process, could you please confirm your order number and whether the packaging is still intact? Once I have these details, I can begin investigating how to resolve this for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 7,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review confirmation, info request, and next-step investigation."
+      },
+      {
+        "comment": "I'm having issues with my Uber account where rides keep getting cancelled by drivers after they accept the request. This has happened five times in the past week and is making me late for important meetings. Is there something wrong with my account or rating that's causing this?",
+        "suggestedMessage": "Hi William, thank you for reaching out. My name is Brian and I'll be assisting you with your Uber account issue. I've reviewed your message and understand that drivers have been cancelling your rides frequently, which is understandably frustrating. To help investigate this further, could you please confirm if you have noticed any specific patterns (such as time of day, pickup location, or type of ride) when these cancellations occur? Any additional details will help us look into this more effectively. Once I have this information, I can start working on a solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 8,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, detail request, and next steps clearly."
+      },
+      {
+        "comment": "Dear Customer Service, I received an email saying my Target RedCard application was approved, but I never applied for a credit card with your company. I'm concerned this might be identity theft and need someone to look into this immediately. Please contact me at your earliest convenience.",
+        "suggestedMessage": "Hello William, \n\nThank you for reaching out and sharing your concern. My name is Brian, and I will be assisting you with this matter. I have reviewed your message and understand the urgency regarding the Target RedCard application you did not submit. To help us investigate further and provide specialist support, could you please confirm if you have received any other suspicious communications or if any of your personal information may have been compromised? Once I have this information, I will escalate your case for immediate review.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 9,
+        "suggestedMessageRating": 8,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, and questions, but lacks explicit investigation statement."
+      },
+      {
+        "comment": "I bought concert tickets through Ticketmaster for $200 each, but the event was cancelled due to weather. It's been three weeks and I still haven't received my refund. The website says refunds are processed within 7-10 business days, so I'm wondering what's causing the delay.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your refund issue. I've reviewed your message and understand that your concert was cancelled and you have not received your refund after three weeks, even though the website states it should take 7-10 business days. To help resolve this as quickly as possible, could you please confirm the order number or any additional details related to your Ticketmaster purchase? Once I have this information, I can begin investigating the delay for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 10,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next-step investigation clearly."
+      },
+      {
+        "comment": "My washing machine from Home Depot stopped working after just two months of normal use. I called the warranty department but they said I need to contact the manufacturer directly. However, the manufacturer is telling me to work with Home Depot since that's where I purchased it. Can you please help resolve this?",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you from here. I've reviewed your message and understand the frustration of being redirected between Home Depot and the manufacturer. To help resolve this, could you please provide the model and serial number of your washing machine, as well as any documentation you received at purchase (such as a receipt or warranty card)? Once I have these details, I can begin investigating the best way to resolve your issue.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 11,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review confirmation, info request, and next-step investigation."
+      },
+      {
+        "comment": "I've been a loyal Starbucks customer for years, but the quality at my local store has really declined lately. My drinks are consistently made incorrectly and the staff seems undertrained. I spend about $50 per week there and am considering switching to a different coffee chain if things don't improve.",
+        "suggestedMessage": "Hello William, thank you for reaching out and sharing your experience. My name is Brian, and I'll be assisting you from here. I’ve reviewed your message and want to ensure we address your concerns thoroughly. Could you please provide the location of the store you visit most often and any specific details about the issues you've encountered? Once I have this information, I can begin investigating how to help resolve this for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 12,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and investigation next steps."
+      },
+      {
+        "comment": "Hello, I ordered flowers for my mother's funeral through your website but they were delivered wilted and in poor condition. This was an extremely important occasion and I'm heartbroken that the arrangement looked so terrible. I paid $150 and expect either a full refund or a replacement arrangement.",
+        "suggestedMessage": "Hello William, my name is Brian and I’ll be assisting you from here. I’m very sorry to hear about your experience, especially given the importance of the occasion. I’ve reviewed your message and want to make sure we resolve this for you as quickly as possible. Could you please confirm if you have any photos of the arrangement as delivered? This will help us investigate and expedite a solution for you. Once I have this information, I’ll begin working on your request right away.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 13,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "I'm trying to return a dress I bought online but your return portal keeps giving me error messages. I've tried different browsers and devices but nothing works. The 30-day return window is almost up and I don't want to be stuck with an item that doesn't fit.",
+        "suggestedMessage": "Hello William, \n\nThank you for reaching out and letting us know about the trouble with the return portal. My name is Brian, and I'll be assisting you from here. I've reviewed your message and understand your concern about the return window. To help you further, could you please provide your order number and confirm if you received any specific error messages when trying to use the portal? Once I have these details, I can begin investigating and ensure your return is processed in time.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 14,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next-step investigation clearly."
+      },
+      {
+        "comment": "My McDonald's mobile order was charged to my credit card but when I arrived at the restaurant, they said they never received the order. I showed them my confirmation email and receipt but they couldn't help me. I paid $15 for food I never received and need this resolved.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your McDonald's mobile order issue. I've reviewed your message and understand you were charged $15 but did not receive your food at the restaurant. To help resolve this as quickly as possible, could you please confirm the order number and the date/time of your purchase? Once I have these details, I can begin investigating and work towards a solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 15,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and investigation next steps."
+      },
+      {
+        "comment": "I signed up for a free trial of your software three months ago and forgot to cancel before the trial period ended. I've been charged $99 per month since then but haven't used the service at all. Could you please cancel my subscription and refund the charges since I never actively used the product?",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you with your request. I've reviewed your message and understand you'd like to cancel your subscription and request a refund for the charges since your free trial ended. To proceed, could you please confirm the last four digits of the card used for payment or any other details that can help us verify your account? Once I have this information, I can begin investigating your request further.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 16,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, information request, and next-step explanation."
+      },
+      {
+        "comment": "The delivery driver from FedEx left my expensive electronics package on my doorstep without requiring a signature, and it was stolen within an hour. The tracking shows it was delivered but I never received it. I need help filing a claim and getting a replacement sent with proper signature confirmation.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your stolen package claim. I've reviewed your message and understand the situation. To help you further, could you please confirm the order number and the exact items that were in the package? Once I have these details, I can begin investigating and assist you with filing a claim and arranging a replacement with signature confirmation.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 17,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "I booked a hotel room through Expedia for next weekend but just received an email saying the reservation was cancelled due to overbooking. This is a busy weekend and all other hotels in the area are now fully booked. I need you to find me comparable accommodations at the same rate or I'll dispute the charge.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your reservation issue. I've reviewed your message and understand how urgent this is, especially with the busy weekend ahead. To help you find comparable accommodations at the same rate, could you please confirm the original hotel name, your booking reference number, and any specific requirements you have for your stay? Once I have these details, I'll begin investigating alternative options for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 18,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "My PlayStation 5 from GameStop has been randomly shutting off during gameplay since I bought it last month. I've tried different games and followed all the troubleshooting steps online but the problem persists. I'd like to exchange it for a working console since it's clearly defective.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you from here. I've reviewed your message and understand your PlayStation 5 has been shutting off during gameplay despite your troubleshooting efforts. To help escalate your request for an exchange, could you please confirm your order number and the serial number of your console? Once I have these details, I can begin investigating the next steps for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 19,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review confirmation, info request, and next-step investigation."
+      },
+      {
+        "comment": "I ordered groceries for delivery from Instacart yesterday but several items were missing from my order. The shopper marked them as 'found' in the app but they weren't in any of the bags. I paid for items I didn't receive and would like those charges removed from my bill.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your Instacart order issue. I've reviewed your message and understand that several items were missing from your delivery, even though they were marked as 'found' in the app. To help resolve this and ensure the correct charges, could you please confirm which specific items were missing from your order? Once I have this information, I can begin investigating and work on a solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 20,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and investigation next steps."
+      },
+      {
+        "comment": "Hello, I'm having trouble accessing my Disney+ account even though my subscription is current. Every time I try to log in, it says my credentials are invalid, but I know I'm using the right email and password. I've tried resetting my password multiple times but the issue persists.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your Disney+ account issue. I've reviewed your message and understand you're having trouble logging in despite using the correct credentials and attempting password resets. To help you further, could you please confirm if you receive any specific error codes or messages besides 'invalid credentials'? Also, let me know if you've recently changed your email or device. Once I have this information, I can begin investigating the issue for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 21,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next-step investigation clearly."
+      },
+      {
+        "comment": "I purchased a year-long membership at your fitness center but you've been closed for renovations for the past six weeks with no clear reopening date. I feel like I should receive a credit or extension on my membership since I'm paying for services I can't use.",
+        "suggestedMessage": "Hello William, thank you for reaching out and sharing your concerns. My name is Brian, and I'll be assisting you from here. I've reviewed your message and understand that your membership has been affected by our recent renovations. To ensure we address your request for a credit or extension appropriately, could you please confirm the date your membership started and whether you have received any prior communications about compensation? Once I have this information, I can begin investigating the best solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 22,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "My food delivery from Grubhub arrived completely cold and the order was wrong. I ordered chicken teriyaki but received beef instead, and I'm allergic to beef. This is both disappointing and potentially dangerous. I need a full refund and want to report this serious error.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your Grubhub order issue. I've reviewed your message and understand the seriousness of receiving the wrong meal, especially given your allergy. To ensure we address this properly and escalate your case, could you please confirm your order number and the delivery address? Once I have these details, I can begin investigating and work towards a resolution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 23,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review confirmation, info request, and next investigation steps."
+      },
+      {
+        "comment": "I bought a smart TV from Costco last week but it won't connect to my WiFi network. I've tried all the troubleshooting steps in the manual and contacted my internet provider, who confirmed the issue is with the TV. I'd like to return this defective unit and get a different model.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you with your request. I've reviewed your message and understand you'd like to return your smart TV due to WiFi connectivity issues. To help you further and start the return process, could you please confirm your order number and the model of the TV? Once I have these details, I can begin investigating the best way to resolve this for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 24,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "Dear Support Team, I've been charged for an Apple Music subscription that I cancelled six months ago. I have email confirmation of the cancellation but the charges have continued. Please stop these recurring charges immediately and refund the unauthorized payments to my account.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I will be assisting you with your Apple Music subscription issue. I have reviewed your message and understand that you have continued to be charged after cancellation. To help resolve this quickly, could you please provide the last four digits of the card that was charged and a copy of your cancellation confirmation email? Once I have this information, I can begin investigating and work towards a solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 25,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next-step investigation commitment."
+      },
+      {
+        "comment": "I ordered a birthday cake from your bakery for pickup today but when I arrived, you didn't have my order in your system. I placed and paid for this order a week ago and have the confirmation email to prove it. The party is tonight and I need this resolved immediately.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your order issue. I've reviewed your message and understand how urgent this is with your party tonight. Could you please forward your order confirmation email or provide the order number? Once I have this information, I'll begin investigating right away to resolve this for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 26,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and investigation next step."
+      },
+      {
+        "comment": "My AT&T internet service has been extremely slow for the past two weeks, making it impossible to work from home effectively. I'm paying for high-speed internet but getting dial-up speeds. Multiple technicians have visited but the problem keeps recurring. I'm considering switching providers if this isn't fixed soon.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you from here. I've reviewed your case and understand how frustrating these ongoing internet issues must be, especially when you rely on your connection for work. To help our specialist team investigate further, could you please share any recent error messages, the times of day when the slowdowns are worst, and whether you notice the issue on both wired and wireless devices? Once I have these details, I'll escalate your case for deeper investigation.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 27,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "I received a damaged package from Amazon yesterday where the box was crushed and the contents were broken. The packaging was insufficient for the fragile items inside. I need a replacement sent with better protective packaging and would like to know how to prevent this from happening again.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your damaged package issue. I've reviewed your message and understand that you received a broken item due to insufficient packaging. To help resolve this quickly, could you please provide the order number and a photo of the damaged item and packaging? Once I have these details, I can begin investigating a replacement and how to improve packaging for future shipments.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 28,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next-step investigation clearly."
+      },
+      {
+        "comment": "Hello, I'm trying to dispute a charge on my Discover credit card statement for a subscription I never signed up for. The merchant is listed as 'Premium Services LLC' for $29.99 monthly, but I have no record of authorizing this charge. Please help me get this resolved and prevent future unauthorized charges.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you with your dispute regarding the charge from 'Premium Services LLC.' I've reviewed your message and will help you resolve this issue and prevent any future unauthorized charges. Could you please confirm if you have ever interacted with this merchant before, or if you have any additional details about the charge (such as the date it appeared or any related emails)? Once I have this information, I can begin investigating further for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 29,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next-step investigation clearly."
+      },
+      {
+        "comment": "I booked a rental car through Enterprise for my vacation next week, but I just received a call saying the vehicle type I reserved isn't available. They're offering a much smaller car at the same price, which won't work for my family of six. I need you to find me a comparable vehicle or I'll have to cancel my trip.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your rental car issue. I've reviewed your message and understand the urgency of finding a comparable vehicle for your family of six. Could you please confirm the exact dates and location of your rental, as well as any specific vehicle requirements you have? Once I have these details, I can begin investigating alternative options for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 30,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "My Chipotle order through the mobile app was completely wrong when I went to pick it up. I ordered a burrito bowl but received a burrito, and none of the ingredients I selected were included. I had to leave for a meeting and couldn't wait for them to remake it. I'd like a refund for this incorrect order.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you with your Chipotle order issue. I've reviewed your message and understand you received the wrong order and would like a refund. To help resolve this quickly, could you please confirm your order number and the pickup location? Once I have these details, I can begin investigating and work on a solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 31,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review confirmation, info request, and next-step investigation."
+      },
+      {
+        "comment": "I purchased a warranty extension for my laptop through SquareTrade, but when I tried to file a claim, they said my device isn't covered. I have all the documentation showing I purchased coverage for this specific laptop model. This seems like a mistake on your end that needs to be corrected immediately.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian, and I'll be assisting you with your warranty coverage issue. I've reviewed your message and understand your concern about your laptop not being recognized as covered, despite your documentation. To help resolve this quickly, could you please provide the serial number of your laptop and attach any documentation you have regarding your warranty purchase? Once I have these details, I can begin investigating and work towards a solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 32,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next-step investigation clearly."
+      },
+      {
+        "comment": "Dear Customer Service, I've been on hold with your phone support for over an hour trying to resolve a billing issue. This is the third time I've called about the same problem and no one seems able to help me. I'm a long-time customer and this level of service is completely unacceptable.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be taking over your case. I apologize for the repeated inconvenience you've experienced with our phone support. I’ve reviewed your message and want to ensure we resolve your billing issue as quickly as possible. Could you please provide any additional details about the billing problem, such as invoice numbers or specific charges in question? Once I have this information, I’ll begin investigating right away.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 33,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and investigation next steps."
+      },
+      {
+        "comment": "I ordered flowers for Valentine's Day through 1-800-Flowers but they were delivered three days late, completely defeating the purpose. The recipient was disappointed and I'm embarrassed by this failure. I paid extra for guaranteed delivery on the 14th and expect a full refund for this major mistake.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your order issue. I've reviewed your message and understand how disappointing it must have been to have your flowers delivered late, especially after paying extra for guaranteed delivery. To help resolve this as quickly as possible, could you please confirm the order number and the recipient's name? Once I have these details, I can begin investigating your refund request.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 34,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "My Tesla Model 3 has been making strange noises from the rear suspension for the past week. I scheduled a service appointment through the app but the earliest available slot is three weeks away. This seems like a safety issue that should be addressed more urgently than that.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you from here. I've reviewed your message and understand your concern about the strange noises from your Model 3's rear suspension and the delay in your service appointment. To help escalate this as a potential safety issue, could you please provide any additional details, such as when the noise occurs (e.g., while driving over bumps, turning, etc.) and if you've noticed any changes in the car's handling or warning lights? Once I have this information, I can begin investigating how to resolve this as quickly as possible.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 35,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review confirmation, info request, and next-step investigation."
+      },
+      {
+        "comment": "I'm having issues with my Zoom Pro subscription where video calls keep dropping after exactly 40 minutes, which is the limit for free accounts. I'm paying for unlimited meeting time but it seems like the system thinks I have a basic account. Please check my subscription status and fix this immediately.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you with your Zoom Pro subscription issue. I've reviewed your message and understand that your meetings are ending after 40 minutes, which should not happen with a Pro account. To help resolve this quickly, could you please confirm the email address associated with your Zoom account and let me know if you have recently made any changes to your subscription? Once I have this information, I can begin investigating and work on a solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 36,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next-step investigation clearly."
+      },
+      {
+        "comment": "Hello, I ordered a wedding dress from your boutique three months ago with a promised delivery date of last week. The wedding is in five days and I still haven't received the dress. I've called multiple times but keep getting vague responses about shipping delays. This is causing me tremendous stress.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you from here. I understand how stressful this situation must be, especially with your wedding so close. I've reviewed your case and want to make sure we resolve this as quickly as possible. Could you please confirm your order number and the best phone number to reach you, so I can escalate this to our specialist team right away? Once I have these details, I'll begin investigating and keep you updated every step of the way.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 37,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Covers greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "I bought a pressure cooker from Williams Sonoma that exploded during normal use, covering my kitchen in food and causing minor burns on my arm. This seems like a serious safety defect and I'm concerned other customers might be at risk. I need this reported to your safety team and want a full refund immediately.",
+        "suggestedMessage": "Hello William, thank you for reaching out and sharing these serious concerns. My name is Brian, and I will be assisting you from here. I have reviewed your message and understand the urgency of the situation. To ensure our safety team can investigate thoroughly and process your request, could you please provide the model number and purchase date of the pressure cooker? Once I have these details, I will escalate this immediately and keep you updated on the next steps.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 38,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "My Netflix account was hacked and someone changed all my settings, including my viewing profiles and payment information. I've secured my account but all my viewing history and recommendations are gone. Is there any way to restore my previous account settings and preferences?",
+        "suggestedMessage": "Hello William, \n\nThank you for reaching out. My name is Brian, and I'll be assisting you from here. I've reviewed your message and understand that your Netflix account was compromised, and now your viewing history and recommendations are missing. To help you further and investigate restoration options, could you please confirm if you have any backup information or previous account details (such as profile names or email addresses previously associated with your account)? Once I have this information, I can escalate your case to our specialist team.\n\nThank you for your patience.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 39,
+        "suggestedMessageRating": 8,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, and info request, but specialist support phrasing is imperfect."
+      },
+      {
+        "comment": "I purchased a annual subscription to your meal kit service but the quality has declined significantly over the past few months. Vegetables arrive wilted, meat is close to expiration, and recipes are missing ingredients. I'm paying premium prices for subpar products and want to cancel with a partial refund.",
+        "suggestedMessage": "Hello William, thank you for reaching out and sharing your concerns. My name is Brian, and I'll be assisting you from here. I've reviewed your message and understand you're experiencing issues with the quality of your meal kit deliveries and would like to cancel your subscription with a partial refund. To help you further, could you please confirm your most recent order number or any additional details about your subscription? Once I have this information, I can begin investigating the best way to resolve this for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 40,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "Dear Support, I ordered a custom phone case with my dog's photo but received one with a random stranger's picture instead. This is clearly a fulfillment error on your end. I paid extra for personalization and received something completely useless to me. Please send the correct item and provide a prepaid return label.",
+        "suggestedMessage": "Hello William, \n\nThank you for reaching out and letting us know about the issue with your custom phone case order. My name is Brian, and I will be assisting you from here. I’ve reviewed your message and understand you received the wrong item. To help resolve this quickly, could you please confirm your order number and attach a photo of the item you received? Once I have these details, I’ll begin investigating and work on getting the correct case sent to you, along with a prepaid return label.\n\nThank you for your patience—I’m here to help!",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 41,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "I've been trying to schedule a repair appointment for my Samsung refrigerator under warranty, but your system keeps saying no technicians are available in my area. I live in a major city and find it hard to believe there's no service coverage. The fridge isn't cooling properly and food is spoiling.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you from here. I've reviewed your message and understand the urgency of your refrigerator issue. To help escalate this to our specialist team, could you please confirm your full address and the best contact number? Once I have these details, I'll begin investigating a solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 42,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "My Lyft ride last night was extremely uncomfortable as the driver was talking loudly on his phone the entire time and driving erratically. I felt unsafe and asked to be let out early, but was still charged the full fare. I'd like a refund and want to report this driver for unsafe behavior.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your recent Lyft experience. I've reviewed your message and understand your concerns regarding the driver's behavior and your request for a refund. To help escalate this to our specialist team, could you please confirm the date and time of your ride, as well as the pickup and drop-off locations? Once I have these details, I can begin investigating how to resolve your issue.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 43,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next-step investigation clearly."
+      },
+      {
+        "comment": "Hello, I received an email saying my Microsoft Office subscription is expiring, but I paid for a full year just two months ago. I have the receipt showing the transaction was processed successfully. Please check your records and update my account to reflect the correct subscription end date.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your Microsoft Office subscription issue. I've reviewed your message and understand that you received an expiry notice despite having paid for a full year recently. To help resolve this, could you please provide a copy of your payment receipt or any additional details about the transaction (such as the payment method or transaction ID)? Once I have this information, I can begin investigating and work to update your account accordingly.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 44,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and investigation next step."
+      },
+      {
+        "comment": "I ordered a birthday gift from Etsy that was supposed to be handmade and unique, but I received an obvious mass-produced item that I can buy on Amazon for half the price. The seller misrepresented their product and I feel deceived. I want to return this item and get my money back.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you with your order issue. I've reviewed your message and understand that you received a mass-produced item instead of the handmade gift you expected. To help you further and begin the process for a return and refund, could you please provide your order number and any photos of the item you received? Once I have these details, I can start investigating how to resolve this for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 45,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Greets, introduces, confirms takeover, requests details, and explains next investigation step."
+      },
+      {
+        "comment": "My internet service from Comcast has been intermittent for the past month, cutting out multiple times per day. I work from home and this is severely impacting my productivity. Three different technicians have visited but none could fix the problem. I'm considering switching to a different provider if this continues.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you from here. I've reviewed your case and understand how disruptive these ongoing internet issues have been, especially with multiple technician visits and no resolution. To help escalate this to our specialist team, could you please provide any additional details, such as the times when the outages most frequently occur or if you've noticed any patterns? Once I have this information, I'll begin investigating further to get this resolved for you as quickly as possible.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 46,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Greets, takes ownership, references review, requests details, and explains next steps."
+      },
+      {
+        "comment": "I bought concert tickets from StubHub for tonight's show, but when I arrived at the venue, security said the tickets were counterfeit. I'm now locked out of the event I paid $300 to attend and StubHub customer service is closed. This is a nightmare situation that needs immediate resolution.",
+        "suggestedMessage": "Hello William, my name is Brian and I’ll be assisting you with your ticket issue. I’ve reviewed your message and understand how urgent and frustrating this situation is. To help you as quickly as possible, could you please confirm your order number and provide any additional details about your purchase (such as the email address used or a screenshot of your StubHub order)? Once I have this information, I’ll begin investigating right away.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 47,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "Dear Team, I ordered a laptop cooling pad from your website but received a completely different product - a tablet stand. The shipping label has my correct name and address but the wrong item was sent. I need the correct product shipped immediately as my laptop is overheating without it.",
+        "suggestedMessage": "Hello William,\n\nThank you for reaching out and letting us know about the mix-up with your order. My name is Brian, and I'll be assisting you from here. I’ve reviewed your message and understand you received a tablet stand instead of the laptop cooling pad you ordered. To help resolve this quickly, could you please confirm the order number and let me know if the packaging or the received item has any additional labels or markings? Once I have this information, I’ll begin investigating and work to get the correct product shipped to you as soon as possible.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 48,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Greets, introduces, confirms takeover, requests details, and explains next investigation steps."
+      },
+      {
+        "comment": "I've been charged three times for the same Uber ride from last Tuesday. My credit card shows three separate charges of $18.47 each for what should have been a single trip. I've tried contacting support through the app but haven't received any response. Please refund the duplicate charges immediately.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your billing concern. I've reviewed your message and understand you've been charged three times for the same Uber ride. To help resolve this quickly, could you please confirm the date and time of the ride, as well as the last four digits of the card used? Once I have this information, I can begin investigating and work towards a resolution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 49,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review confirmation, info request, and next-step investigation."
+      },
+      {
+        "comment": "My Amazon Echo device started playing music at 3 AM last night without any command from me, waking up my entire family. This is the second time this has happened and it's concerning from both a technical and privacy standpoint. Is there a malfunction with the device or has my account been compromised?",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your Amazon Echo concern. I've reviewed your message and understand how disruptive and concerning this situation must be. To help investigate further, could you please provide any additional details, such as whether any other devices are linked to your Amazon account, or if you've noticed any unusual activity recently? Once I have this information, I can begin looking into the issue for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 50,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover confirmation, review acknowledgment, info request, and next-step clarity."
+      },
+      {
+        "comment": "I purchased a year-long fitness app subscription but the workouts won't load on my phone despite having a strong internet connection. I've tried uninstalling and reinstalling the app, but the problem persists. I'm paying for a service I can't use and need this fixed or I want my money back.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you from here. I've reviewed your message and understand that your workouts aren't loading despite a strong internet connection and reinstalling the app. To help our specialist team investigate further, could you please let me know what type of phone and operating system version you're using? Once I have this information, I'll get started on resolving this for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 51,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Greets, takes over, references prior context, requests details, and promises investigation."
+      },
+      {
+        "comment": "Hello, I ordered a replacement battery for my iPhone from your website but it doesn't hold a charge for more than two hours. The old battery lasted longer than this supposedly new one. I suspect I received a defective or used battery instead of the new one I paid for.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you with your battery issue. I've reviewed your message and understand your concern about the replacement battery not holding a charge. To help resolve this as quickly as possible, could you please provide the order number and confirm the model of your iPhone? Once I have these details, I can begin investigating the problem for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 52,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, details request, and next-step investigation clearly."
+      },
+      {
+        "comment": "My DoorDash driver called me asking for directions to my apartment, which is clearly marked and easy to find. When I came downstairs to help, I discovered he had eaten some of my food during the 45-minute delay. This is completely unacceptable behavior and I want a full refund plus credit for future orders.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your concern. I've reviewed your message and understand how upsetting this experience must have been. To ensure we address this properly, could you please confirm your order number and any additional details about the delivery? Once I have this information, I can begin investigating and work towards a resolution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 53,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and investigation next steps."
+      },
+      {
+        "comment": "I bought a smart watch from Target that was advertised as waterproof, but it stopped working after I wore it in the shower once. The product description specifically mentioned shower-safe usage, so this seems like false advertising. I want to return this defective item and get a full refund.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I’ll be assisting you with your smart watch issue. I’ve reviewed your message and understand your concerns about the product’s waterproof claim and your request for a return and refund. To help you further, could you please provide your order number and confirm if you still have the original packaging and receipt? Once I have these details, I can begin investigating the best way to resolve this for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 54,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next-step investigation clearly."
+      },
+      {
+        "comment": "Dear Support, I've been a Spotify Premium subscriber for four years, but my account was suddenly suspended yesterday for 'unusual activity.' I haven't shared my password or done anything different. I just want my music back and need someone to explain what triggered this suspension and how to resolve it.",
+        "suggestedMessage": "Hello William, \n\nThank you for reaching out. My name is Brian, and I'll be assisting you from here. I've reviewed your message and understand your Spotify Premium account was suspended unexpectedly. To help resolve this as quickly as possible, could you please confirm if you have received any specific emails from Spotify regarding the suspension, or if you noticed any unusual activity on your account recently? Once I have this information, I can begin investigating further for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 55,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps; ticket context unavailable."
+      },
+      {
+        "comment": "I ordered flowers for my grandmother's 90th birthday through your website, specifically requesting no lilies due to her allergies. The arrangement delivered was mostly lilies and made her extremely sick. This was clearly noted in my order and your florist completely ignored my instructions.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you from here. I've reviewed your message and I'm very sorry to hear about your grandmother's experience. To help resolve this as quickly as possible, could you please confirm the order number and the delivery address? Once I have these details, I can begin investigating and work towards a solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 56,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "My PlayStation Plus subscription auto-renewed yesterday even though I turned off auto-renewal in my account settings weeks ago. I don't want to continue the service and need the charge reversed. Your system seems to have ignored my preference settings and charged me without authorization.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your PlayStation Plus subscription issue. I've reviewed your message and understand your concern about the recent auto-renewal charge despite turning off auto-renewal. To help resolve this as quickly as possible, could you please confirm the last four digits of the payment method used or provide any additional details about your account? Once I have this information, I can begin investigating and work towards a solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 57,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "I purchased a drone from B&H Photo that was described as 'new in box' but it arrived with clear signs of previous use, including scratches and missing accessories. The packaging was also damaged and appeared to have been opened before. I paid full price for a new item and received something that looks refurbished.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your case. I've reviewed your message and understand you received a drone described as 'new in box' that arrived with signs of previous use, missing accessories, and damaged packaging. To help resolve this quickly, could you please provide the order number and any photos of the item and packaging? Once I have these details, I can begin investigating the issue for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 58,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Greets, takes ownership, references prior context, requests details, and explains next steps."
+      },
+      {
+        "comment": "Hello, I'm trying to return a defective blender to your store but was told I need the original receipt, which I can't find. I paid with my credit card and can provide the transaction details from my statement. Why won't you accept proof of purchase from my bank records?",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you with your return request. I've reviewed your message and understand you're unable to locate your original receipt but can provide your credit card transaction details. To help you further, could you please share the transaction date and the last four digits of the card used? Once I have this information, I can investigate how we can proceed with your return.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 59,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Covers greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "I booked a table for eight people at your restaurant for tonight through OpenTable, but when I arrived, you said you don't have my reservation. I have the confirmation email and booking reference number. This is my anniversary dinner and I'm extremely disappointed that you can't accommodate us.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you from here. I’m very sorry to hear about your experience with your anniversary dinner reservation. I’ve reviewed your message and want to help resolve this as quickly as possible. Could you please provide your booking reference number and a copy of your confirmation email? Once I have these details, I’ll escalate your case to our specialist team for further investigation.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 60,
+        "suggestedMessageRating": 8,
+        "suggestedMessageRationale": "Covers greeting, takeover, review, and info request; investigation timing is slightly off."
+      },
+      {
+        "comment": "My Instacart shopper substituted almost every item in my order without asking for approval first, despite my settings being configured to require approval for substitutions. I ended up with products I don't want or need and paid more than I budgeted for. This needs to be corrected.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your Instacart order issue. I've reviewed your message and understand that substitutions were made without your approval, which led to unwanted items and extra charges. To help resolve this, could you please confirm your order number and let me know if there are any specific items you would like refunded or replaced? Once I have these details, I can begin investigating and work towards a solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 61,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover confirmation, reviewed context, info request, and next steps."
+      },
+      {
+        "comment": "I purchased a extended warranty for my MacBook through AppleCare+, but when I tried to use it for a cracked screen, they said the damage wasn't covered. The representative couldn't clearly explain why accidental damage protection doesn't cover accidental damage. I need someone senior to review this claim.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you further with your AppleCare+ claim. I've reviewed your message and understand your concern regarding the denial of coverage for your cracked screen. To ensure I can escalate this to a senior specialist, could you please provide any documentation you received from Apple regarding the claim decision, as well as the serial number of your MacBook? Once I have these details, I can begin investigating your case.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 62,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "Dear Customer Service, I've been receiving promotional emails from your company despite unsubscribing multiple times over the past six months. Each email has an unsubscribe link but clicking it doesn't seem to work. This appears to be a violation of email marketing laws and needs to stop immediately.",
+        "suggestedMessage": "Hello William, thank you for reaching out and sharing your concerns. My name is Brian, and I'll be assisting you from here. I've reviewed your message and understand that you've been receiving promotional emails despite multiple unsubscribe attempts. To help us investigate and resolve this as quickly as possible, could you please confirm if these emails are coming from a specific sender address or if you have any examples of recent emails received? Once I have this information, I can escalate your case to our specialist team for further review.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 63,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Covers greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "I ordered a custom cake from Whole Foods for my son's birthday party tomorrow, but when I went to pick it up today, they said they never received my order. I placed it two weeks ago and have the order confirmation. Thirty kids are expecting this cake and I need a solution immediately.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your Whole Foods cake order issue. I've reviewed your message and understand how urgent this is for your son's birthday party. Could you please provide your order confirmation number and any additional details (such as the pickup location and time) so I can escalate this and help resolve it as quickly as possible? Once I have this information, I'll begin investigating right away.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 64,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next-step investigation clearly."
+      },
+      {
+        "comment": "My Ring doorbell has been offline for three days despite having a strong WiFi signal and full power. I've tried everything in the troubleshooting guide but it won't reconnect. I'm going out of town tomorrow and need my home security system working properly. Can you escalate this to technical support?",
+        "suggestedMessage": "Hello William, \n\nThank you for reaching out. My name is Brian and I'll be assisting you from here. I've reviewed your message and understand your Ring doorbell has been offline for several days despite your troubleshooting efforts, and you need this resolved before you go out of town. \n\nTo ensure our technical specialists can assist you as quickly as possible, could you please confirm if there have been any recent changes to your WiFi network or router settings? Also, have you noticed any error lights or messages on the device itself?\n\nOnce I have this information, I'll escalate your case to our technical team for further investigation.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 65,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Covers greeting, takeover, review, information gathering, and next steps clearly."
+      },
+      {
+        "comment": "I bought a silk dress from Nordstrom that was labeled as dry clean only, but the care label instructions caused the dress to shrink significantly when I took it to a professional cleaner. The cleaner said they followed the label exactly but the garment is now unwearable. This seems like a labeling error.",
+        "suggestedMessage": "Hello William, thank you for reaching out and sharing the details about your silk dress. My name is Brian, and I'll be assisting you from here. I've reviewed your message and understand your concern about a possible labeling error that led to the dress shrinking. To help our specialist team investigate further, could you please provide a photo of the care label and the dress after cleaning? Once I have this information, I can escalate your case for a thorough review.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 66,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review confirmation, info request, and next-step explanation."
+      },
+      {
+        "comment": "Hello, I've been charged $49.99 for Amazon Prime but I already have a Prime membership through my student account. It looks like your system created a duplicate account when I updated my payment method. Please consolidate these accounts and refund the duplicate charge immediately.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you with your Amazon Prime account issue. I've reviewed your message and understand you're seeing a duplicate charge after updating your payment method. To help consolidate your accounts and process a refund, could you please confirm the email addresses associated with both your student and duplicate Prime accounts? Once I have this information, I can begin investigating and work towards a resolution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 67,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review confirmation, info request, and next-step expectation."
+      },
+      {
+        "comment": "I ordered food delivery from Seamless but the restaurant sent completely different items than what I selected. Instead of vegetarian options, I received meat dishes, which I cannot eat for religious reasons. This isn't just disappointing, it violates my dietary restrictions and I need a full refund.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your Seamless order issue. I understand how important it is to receive the correct items, especially when dietary restrictions are involved. I’m here to help resolve this for you. Could you please confirm your order number and the list of items you received? Once I have these details, I’ll begin investigating and work towards a solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 68,
+        "suggestedMessageRating": 8,
+        "suggestedMessageRationale": "Greets, offers help, requests details, but doesn’t mention reviewing prior conversation."
+      },
+      {
+        "comment": "My Tesla charging adapter stopped working after just one month of normal use. When I contacted service, they said it's not covered under warranty because it's considered an accessory. I paid $200 for this adapter and expected it to last longer than 30 days of light use.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your Tesla charging adapter issue. I've reviewed your message and understand your concerns about the warranty coverage. To help escalate this matter and investigate further, could you please provide the serial number of your adapter and any purchase receipt or order confirmation you may have? Once I have these details, I can begin looking into a resolution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 69,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review confirmation, info request, and next-step investigation."
+      },
+      {
+        "comment": "I've been trying to cancel my SiriusXM subscription for two months but your representatives keep offering me discount deals instead of processing the cancellation. I just want to end the service, not negotiate a new rate. Please cancel my account immediately and stop the automatic billing.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you from here. I've reviewed your request and understand your frustration regarding the repeated offers instead of processing your cancellation. To ensure we can resolve this quickly, could you please confirm the last 4 digits of the payment method on file or your account number? Once I have this information, I can begin the cancellation process and stop any further billing.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 70,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "Dear Support Team, I purchased a smart thermostat from Home Depot that was supposed to be compatible with my heating system, but it's causing my furnace to cycle on and off constantly. I followed the installation instructions exactly but something isn't working properly. Do I need a different model?",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you with your thermostat issue. I've reviewed your message and would like to gather a few more details to help resolve the problem. Could you please provide the exact model of your thermostat and the make/model of your heating system? Once I have this information, I can begin investigating the best solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 71,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Covers greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "I ordered a wedding cake topper from your Etsy shop six weeks ago with plenty of time for custom creation, but I still haven't received it. My wedding is next Saturday and I need to know if this will arrive in time or if I should find an alternative. Communication has been poor throughout this process.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you from here. I've reviewed your message and understand how important it is to receive your wedding cake topper in time for your big day. To help resolve this as quickly as possible, could you please confirm your order number and the shipping address? Once I have these details, I’ll begin investigating your order status and next steps.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 72,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next-step investigation clearly."
+      },
+      {
+        "comment": "My Hulu account keeps signing me out and asking me to verify my identity with a code sent to a phone number I haven't used in three years. I can't update my phone number because I can't log in, creating a frustrating loop. I need someone to manually update my contact information so I can access my account.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you from here. I've reviewed your message and understand you're unable to access your Hulu account due to an outdated phone number for verification. To help you further, could you please confirm your current phone number and any other contact details you'd like us to update? Once I have this information, I can escalate your request to our specialist team for resolution.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 73,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "I bought a mattress from Sleep Number that was supposed to adjust firmness automatically based on my sleep position, but it's been stuck on the firmest setting for weeks. The app shows it's connected but none of the adjustments work. I'm not sleeping well and need this expensive mattress to work as advertised.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you from here. I've reviewed your message and understand your Sleep Number mattress is stuck on the firmest setting despite being connected to the app. To help our specialist team investigate further, could you please confirm if you've tried any troubleshooting steps so far (such as restarting the app or mattress), and let us know the model of your mattress? Once I have this information, I'll begin looking into a solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 74,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next-step expectation clearly."
+      },
+      {
+        "comment": "Hello, I ordered a laptop bag from your website that was described as fitting 15-inch laptops, but my 15-inch MacBook Pro doesn't fit despite matching the dimensions listed. The product description seems inaccurate and I need to return this item since it doesn't serve its intended purpose.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you with your return request. I've reviewed your message and understand that the laptop bag you received does not fit your 15-inch MacBook Pro as described. To help you further and start the return process, could you please confirm if the bag is unused and in its original packaging? Once I have this information, I can proceed with the next steps.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 75,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "My food delivery from Postmates was left outside in the rain because the driver didn't knock or ring the doorbell as requested. The food was completely soggy and inedible by the time I found it. I paid delivery fees and tips for service that was poorly executed and now I have no dinner.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your delivery issue. I've reviewed your message and I'm sorry to hear about your experience. To help resolve this as quickly as possible, could you please confirm your order number and the time of delivery? Once I have these details, I can begin investigating how to best address your concern.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 76,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "I've been trying to schedule a Geek Squad appointment to set up my new smart TV, but your online booking system keeps showing error messages. I've called the store directly but they said I have to book online. This circular process is preventing me from getting the help I paid for.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you from here. I've reviewed your message and understand the frustration with the online booking errors and the lack of support from the store. To help escalate this and get your Geek Squad appointment scheduled, could you please provide any error messages or screenshots you encountered during the booking process? Once I have these details, I can begin investigating and work on a solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 77,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next-step investigation clearly."
+      },
+      {
+        "comment": "Dear Customer Service, I received a defective air fryer from your company that sparked and smoked when I first plugged it in. This seems like a serious electrical safety issue that could have caused a fire. I need this reported to your safety team and want to return it immediately for a full refund.",
+        "suggestedMessage": "Hello William, thank you for reaching out and sharing these important details. My name is Brian, and I will be assisting you from here. I understand your concern regarding the defective air fryer and the potential safety risk. To ensure we escalate this properly and process your return and refund, could you please confirm the model number and purchase date of the air fryer? Once I have this information, I will begin the investigation and coordinate with our safety team.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 78,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, info request, and next steps; reviewed conversation not explicit."
+      },
+      {
+        "comment": "I ordered custom business cards from Vistaprint with my company logo, but they arrived with someone else's logo instead. This is a major branding error that makes the cards completely useless for my business. I need the correct cards printed and expedited shipping since I have a trade show next week.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your order. I've reviewed your message and understand the urgency of getting the correct business cards before your upcoming trade show. To help resolve this quickly, could you please confirm your order number and upload a copy of the correct logo file you'd like printed? Once I have these details, I'll escalate your request for expedited reprinting and shipping.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 79,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, and info request; investigation phrasing slightly off."
+      },
+      {
+        "comment": "My Verizon wireless service has been dropping calls constantly in my neighborhood for the past month. This is a area where I've had excellent coverage for years, so something has clearly changed. I need a technician to investigate this degradation in service quality or I'll switch to another carrier.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your Verizon service issue. I've reviewed your message and understand that you've been experiencing dropped calls in an area that previously had excellent coverage. To help our specialist team investigate further, could you please provide the specific location (address or intersection) where this issue is occurring, and let us know if you’ve noticed any patterns (such as certain times of day or specific locations)? Once I have this information, I’ll escalate your case for technical review.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 80,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Greets, takes ownership, requests details, and explains next steps clearly."
+      },
+      {
+        "comment": "I purchased a robot vacuum from iRobot that was supposed to work on pet hair, but it gets clogged after just five minutes of use despite my house being relatively clean. The marketing materials specifically highlighted pet hair performance, but it seems unable to handle even moderate amounts of fur.",
+        "suggestedMessage": "Hello William, thank you for reaching out and sharing your experience. My name is Brian, and I'll be assisting you from here. I've reviewed your message and understand your concern about the vacuum's performance with pet hair. To help resolve this, could you please provide a bit more detail? For example, which model of iRobot vacuum do you have, and have you noticed if the clogging happens in a specific part of the device? Once I have this information, I can begin investigating the best solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 81,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Covers greeting, takeover, review, details request, and next steps clearly."
+      },
+      {
+        "comment": "Hello, I ordered a birthday cake from your bakery but when I arrived for pickup, the name was spelled completely wrong despite me spelling it out clearly when ordering. The party is starting in an hour and I can't serve a cake with the wrong name. Can you fix this immediately?",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your cake order. I understand how important this is, and I'm here to help resolve the issue as quickly as possible. Could you please confirm the correct spelling of the name that should appear on the cake? Once I have this information, I'll escalate your request for immediate attention.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 82,
+        "suggestedMessageRating": 6,
+        "suggestedMessageRationale": "Greets and requests details, but doesn’t mention reviewing prior conversation or investigation."
+      },
+      {
+        "comment": "My Microsoft Xbox Game Pass subscription expired yesterday but I was charged the renewal fee anyway. I don't want to continue the service and need the charge reversed to my credit card. Your billing system seems to have processed the payment after the subscription had already lapsed.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your billing concern. I've reviewed your message and understand that you were charged for a Microsoft Xbox Game Pass renewal after your subscription expired. To help resolve this quickly, could you please confirm the last 4 digits of the card that was charged and the date you noticed the charge? Once I have this information, I can begin investigating and work on getting this sorted for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 83,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Greets, takes over, requests details, and explains next investigative step clearly."
+      },
+      {
+        "comment": "I bought a dress for a wedding from your boutique, but when I tried it on at home, I noticed several loose threads and a small stain on the fabric. This was supposed to be a new garment but looks like it may have been tried on extensively or returned by another customer before being sold to me.",
+        "suggestedMessage": "Hello William, \n\nThank you for reaching out and letting us know about the condition of the dress you received. My name is Brian, and I will be assisting you from here. I’ve reviewed your message and want to make sure we resolve this for you as quickly as possible. Could you please provide a photo of the loose threads and the stain? This will help us investigate and find the best solution for you. Once I have this information, I’ll get started right away.\n\nThank you for your patience.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 84,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover confirmation, review acknowledgment, info request, and next-step assurance."
+      },
+      {
+        "comment": "Dear Support, I've been waiting three weeks for my prescription glasses from LensCrafters despite being told they would be ready in 7-10 days. The wedding I need them for is this weekend and I'm starting to panic. Can you please check the status of my order and expedite production if possible?",
+        "suggestedMessage": "Hello William, thank you for reaching out and sharing your concerns. My name is Brian, and I'll be assisting you from here. I've reviewed your message and understand the urgency with your upcoming wedding. To help expedite your request, could you please confirm your order number or any additional details about your prescription glasses? Once I have this information, I will begin investigating and work to resolve this as quickly as possible.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 85,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "I ordered groceries through Amazon Fresh with a scheduled delivery window of 2-4 PM, but no one showed up and I received no communication about delays. I stayed home from work to receive these perishables and now my evening dinner plans are ruined. This level of unreliability is unacceptable.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you from here. I've reviewed your message and understand how frustrating it must be to have your grocery delivery missed without any notice, especially when it disrupted your plans. To help resolve this as quickly as possible, could you please confirm your order number and if you received any updates or notifications after the scheduled delivery window? Once I have these details, I can begin investigating the issue for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 86,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review confirmation, info request, and investigation next steps."
+      },
+      {
+        "comment": "My Samsung washing machine is only six months old but it's already making loud grinding noises during the spin cycle. I've tried balancing the load and checking for loose items, but the problem persists. This seems like a premature mechanical failure that should be covered under warranty.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you from here. I've reviewed your message and understand your Samsung washing machine is making loud grinding noises despite your troubleshooting efforts. To help escalate this for specialist support, could you please confirm the model number and provide a photo or video of the issue if possible? Once I have these details, I can begin investigating a solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 87,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review confirmation, info request, and next-step investigation."
+      },
+      {
+        "comment": "Hello, I purchased a car insurance policy from your company but just discovered that the coverage amounts listed on my declaration page don't match what I requested during the application process. The liability limits are much lower than what I specifically asked for and agreed to pay for.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you with your car insurance policy today. I've reviewed your message and understand that the liability limits on your declaration page are lower than what you requested. To help resolve this, could you please confirm the coverage amounts you originally requested and any supporting documentation you may have? Once I have this information, I can begin investigating the issue for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 88,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps; ticket context absent."
+      },
+      {
+        "comment": "I ordered a custom photo book from Shutterfly as a Christmas gift, but several pages have photos that are severely cropped or cut off at the edges. I carefully sized all images according to your templates, so this appears to be a printing error on your end. I need a corrected version printed and shipped immediately.",
+        "suggestedMessage": "Hello William, thank you for reaching out and letting us know about the issue with your photo book. My name is Brian, and I'll be assisting you from here. I've reviewed your message and want to make sure we resolve this as quickly as possible. Could you please confirm your order number and provide photos of the affected pages? Once I have these details, I can begin investigating and work on getting a corrected version shipped to you right away.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 89,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next steps clearly."
+      },
+      {
+        "comment": "My Apple Watch Series 8 battery life has degraded dramatically after just eight months of normal use, now lasting only 4-5 hours instead of the advertised all-day performance. I've tried all the battery optimization steps suggested online but nothing helps. Is this covered under the limited warranty?",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you further with your Apple Watch battery issue. I've reviewed your message and understand that your device's battery life has dropped significantly after just eight months, despite following all recommended optimization steps. To help you further and check warranty options, could you please confirm if your watch has experienced any accidental damage or repairs? Once I have this information, I can begin investigating the best solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 90,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next-step assurance clearly."
+      },
+      {
+        "comment": "Dear Customer Service, I booked a flight through Expedia but received conflicting confirmation numbers and seat assignments. Now I'm not sure if my reservation is actually confirmed and I'm worried about being bumped from the flight. Can you verify my booking status and resolve this confusion?",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you with your Expedia booking concerns. I've reviewed your message and understand you're seeing conflicting confirmation numbers and seat assignments. To help verify your reservation and resolve this, could you please provide the confirmation numbers and any other details you received from Expedia? Once I have this information, I can begin investigating and work to resolve the confusion for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 91,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next-step investigation clearly."
+      },
+      {
+        "comment": "I purchased a high-end coffee machine from Williams Sonoma that's supposed to grind beans automatically, but the grinder jams constantly and produces very uneven grounds. For a $800 machine, I expected much better performance. The coffee quality is actually worse than my old $50 machine produced.",
+        "suggestedMessage": "Hello William, thank you for reaching out and sharing the details about your coffee machine issue. My name is Brian, and I'll be assisting you from here. I understand how frustrating it must be to experience these problems with a high-end machine. To help you further, could you please provide the model number and let me know if you've tried any troubleshooting steps so far? Once I have this information, I can begin investigating the best solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 92,
+        "suggestedMessageRating": 8,
+        "suggestedMessageRationale": "Greets, introduces, gathers details, but doesn't confirm reviewing prior conversation."
+      },
+      {
+        "comment": "My Spotify family plan shows that I'm at the maximum number of accounts, but I only have four family members using it when the plan allows six. I can't add my youngest daughter to the plan even though we should have two spots available. Something seems wrong with how your system is counting users.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian, and I'll be assisting you with your Spotify family plan issue. I've reviewed your message and understand you're unable to add your youngest daughter even though there should be available spots. To help investigate further, could you please confirm the email addresses of all current family members on your plan? Once I have this information, I can start looking into the problem for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 93,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next-step investigation clearly."
+      },
+      {
+        "comment": "I ordered a replacement screen for my iPhone from your repair shop, but after installation, the touch sensitivity is terrible and colors look washed out. This doesn't seem like an authentic Apple part as promised. I paid premium prices for what appears to be a low-quality aftermarket component.",
+        "suggestedMessage": "Hello William, thank you for reaching out and sharing your concerns. My name is Brian, and I'll be assisting you from here. I've reviewed your message and understand that you're experiencing issues with the replacement screen's touch sensitivity and color quality, and you're concerned about its authenticity. To help resolve this as quickly as possible, could you please provide the order number and any photos of the installed screen? Once I have these details, I can begin investigating and work towards a solution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 94,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Includes greeting, takeover, review confirmation, info request, and next-step investigation."
+      },
+      {
+        "comment": "Hello, I've been trying to return a defective product to your online store for two weeks, but your return portal keeps timing out when I try to print the shipping label. I've tried different browsers and devices but the problem persists. The return window is closing and I'm getting desperate for help.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you from here. Thank you for sharing the details about the trouble with our return portal. I understand how frustrating this must be, especially with the return window closing soon. To help you further, could you please confirm the order number and the product you are trying to return? Once I have this information, I can escalate your case and work on a solution right away.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 95,
+        "suggestedMessageRating": 8,
+        "suggestedMessageRationale": "Includes greeting, takeover, and info request, but lacks explicit conversation review."
+      },
+      {
+        "comment": "Hi, I ordered a birthday cake from your bakery for pickup today but when I arrived, you said you don't have my order in your system. I have the confirmation email and booking reference number. This is my anniversary dinner and I'm extremely disappointed that you can't accommodate us.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you with your order issue. I understand how disappointing this must be, especially for your anniversary dinner, and I apologize for the inconvenience. Thank you for providing your confirmation email and booking reference. Could you please share the booking reference number here, and let me know if you have any dietary requirements or special requests for the cake? Once I have these details, I'll escalate this to our specialist team and work on a resolution for you.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 96,
+        "suggestedMessageRating": 8,
+        "suggestedMessageRationale": "Greets, takes over, requests details, but doesn't mention reviewing prior conversation."
+      },
+      {
+        "comment": "Hello - my dog was supposed to be groomed today but the groomer never showed up and isn't answering their phone. I paid for a service that was never delivered and now my dog is looking very scruffy for an upcoming family event. I need this resolved immediately.",
+        "suggestedMessage": "Hello William, my name is Brian and I'll be assisting you from here. I've reviewed your message and understand how urgent this is, especially with your upcoming family event. To help resolve this quickly, could you please confirm the appointment time and any other details about your booking? Once I have this information, I’ll begin investigating right away.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 97,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Includes greeting, takeover, review, info request, and next-step investigation clearly."
+      },
+      {
+        "comment": "Hey there, my lawnmower broke down after just two uses and I can't get it to start again. I followed all the troubleshooting steps in the manual but nothing works. I paid good money for this and expected it to last at least a full season.",
+        "suggestedMessage": "Hello William, thank you for reaching out. My name is Brian and I'll be assisting you from here. I've reviewed your message and understand your lawnmower stopped working after only two uses, despite following the troubleshooting steps in the manual. To help our specialist team investigate further, could you please provide the model and serial number of your lawnmower, as well as any error lights or sounds you noticed when trying to start it? Once I have these details, I can escalate your case for a resolution.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 98,
+        "suggestedMessageRating": 9,
+        "suggestedMessageRationale": "Greets, takes over, reviewed context, requests details, and explains next steps clearly."
+      },
+      {
+        "comment": "I picked up a prescription from your pharmacy but the medication was the wrong dosage and could have been dangerous if I hadn't caught the error. I need to speak with a pharmacist immediately to ensure I get the correct medication and to report this serious mistake.",
+        "suggestedMessage": "Hello William, my name is Brian and I will be assisting you with your concern. I understand the seriousness of receiving the wrong medication dosage and appreciate you bringing this to our attention. To ensure we address this properly and connect you with a pharmacist as soon as possible, could you please provide the prescription details (medication name, dosage received, and the correct dosage prescribed)? Once I have this information, I will escalate your case for immediate specialist review.",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 99,
+        "suggestedMessageRating": 8,
+        "suggestedMessageRationale": "Greets, takes over, requests details, but doesn’t mention reviewing prior conversation."
       }
     ]
   },

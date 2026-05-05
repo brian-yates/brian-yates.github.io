@@ -1,0 +1,2121 @@
+[
+  {
+    "procedureName": "five",
+    "procedure": "Customer Request Acknowledgment with Mandatory Actions\n\nWhen responding to any customer request, you MUST complete both the message reply AND the two required ticket updates.\n\nSend this acknowledgment message:\n\"Hi {{ticket.requester.first_name}},\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details\nnow and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\n{{agent.first_name}}\"\n\nREQUIRED: Set ticket priority to High\nREQUIRED: Set ticket status to In Progress",
+    "totals": {
+      "totalTickets": 100,
+      "totalTicketsMissingSuggestedMessages": 0,
+      "totalTicketsMissingRequiredActions": 11,
+      "totalTicketsWithInvalidActions": 1,
+      "totalSuggestedMessageScore": 923
+    },
+    "data": [
+      {
+        "comment": "Hello, I recently tried to use a digital coupon from my Kroger account during checkout, but it did not apply to my order. I made sure the coupon was clipped and the items matched the coupon requirements. Can you please help me resolve this issue and ensure I receive the discount? Thank you.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 0,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately generic."
+      },
+      {
+        "comment": "Hi, I ordered a pair of shoes from your online store last week, but they arrived with a noticeable defect on the left shoe. The stitching is coming undone and it looks like it was not properly inspected before shipping. I would like to request a replacement or a refund for this item. Please let me know how to proceed.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 1,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "I've been charged twice for my Netflix subscription this month and I can't figure out why. My bank statement shows two separate charges of $15.49 on the same day. Could someone please look into this and refund the duplicate charge? I've been a loyal customer for over 5 years.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 2,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "My DoorDash order was supposed to arrive 45 minutes ago but the driver seems to be stuck at the same location for the past 20 minutes. The food is probably cold by now and I have a meeting starting soon. Can you please cancel this order and issue a full refund? This is very disappointing.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 3,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately addressed."
+      },
+      {
+        "comment": "I purchased a MacBook Pro from your Apple Store last month and the battery is already showing signs of swelling. This is a serious safety concern and I need this replaced immediately. I have AppleCare+ coverage and expect this to be handled as a priority. Please advise on the next steps.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 4,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "My Amazon Prime package was marked as delivered yesterday but I never received it. I checked with neighbors and building management, but no one has seen it. The tracking shows it was left at my front door, but there's no package here. I need help resolving this as the items were gifts for my daughter's birthday.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 5,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and remains appropriately generic."
+      },
+      {
+        "comment": "I've been trying to cancel my Spotify Premium subscription for the past three days but keep getting error messages on the website. Every time I click 'Cancel Subscription' it says 'Something went wrong, try again later.' This is frustrating and I don't want to be charged next month.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 6,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately addressed."
+      },
+      {
+        "comment": "The WiFi router I ordered from Best Buy arrived damaged in the box. The antenna is bent and there are visible cracks on the casing. I need this replaced urgently as I work from home and need reliable internet. Can you expedite a replacement and provide a prepaid return label?",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 7,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches required acknowledgment message exactly and is appropriate despite undefined ticket comment."
+      },
+      {
+        "comment": "I returned a dress to Nordstrom three weeks ago with the original receipt and tags attached, but I still haven't received my refund. The customer service representative said it would take 5-7 business days but it's been much longer. Can someone please check on the status of my return?",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 8,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Message exactly matches required acknowledgment template and is appropriately addressed."
+      },
+      {
+        "comment": "My Uber ride last night was terrible - the driver was texting while driving and took a route that was 15 minutes longer than necessary. I felt unsafe and uncomfortable throughout the trip. I want a full refund and assurance that this driver will be properly addressed.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 9,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "I signed up for a free trial of Disney+ but was charged $7.99 immediately instead of after the trial period ended. I thought the first month was supposed to be free for new subscribers. Please refund this charge and ensure my trial period is properly applied.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 10,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Message matches the required acknowledgment template and is appropriately personalized."
+      },
+      {
+        "comment": "The laptop I purchased from Dell has been freezing constantly since I received it two days ago. I've tried restarting multiple times but the problem persists. This is clearly a hardware issue and I need either a replacement or full refund since the product is defective.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 11,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches required acknowledgment message exactly and fits a generic customer request."
+      },
+      {
+        "comment": "My Instacart shopper substituted almost half of my grocery order without asking permission first, including expensive organic items for regular ones. I specifically selected 'Don't substitute' for those items. I want a partial refund for the price differences and better training for your shoppers.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 12,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and remains appropriately generic."
+      },
+      {
+        "comment": "I booked a hotel room through Expedia for next weekend but just realized I need to cancel due to a family emergency. The booking shows as non-refundable, but given the circumstances, I'm hoping you can make an exception. I've been a loyal customer for many years.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 13,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Message matches the required acknowledgment template exactly and is appropriately addressed."
+      },
+      {
+        "comment": "My PlayStation 5 controller started drifting after just two months of normal use. This seems to be a known issue with these controllers and I shouldn't have to pay for a replacement. I have the original purchase receipt and it's still under warranty.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 14,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately addressed."
+      },
+      {
+        "comment": "I ordered groceries for pickup from Target but when I arrived, half of my items were out of stock and not substituted. The staff seemed confused and couldn't find my order initially. This wasted an hour of my time and I still need to shop elsewhere for the missing items.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 15,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "The phone case I bought from your website doesn't fit my iPhone 13 Pro Max despite being advertised as compatible. The camera cutout is misaligned and the charging port is partially blocked. I need to return this and get a refund as it's completely unusable.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 16,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment template exactly and is appropriately addressed."
+      },
+      {
+        "comment": "My Peloton bike has been making a loud grinding noise during rides for the past week. I've tried the troubleshooting steps in the manual but nothing works. This is affecting my workouts and I'm concerned about potential damage. Please schedule a technician visit as soon as possible.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 17,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly, with appropriate personalization."
+      },
+      {
+        "comment": "I've been waiting on hold with Comcast customer service for over two hours trying to resolve my internet outage. This is unacceptable service and I'm considering switching providers. My home office depends on reliable internet and this outage is costing me money.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 18,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "The prescription glasses I ordered from Warby Parker arrived with the wrong prescription. The lenses are clearly not what I ordered and are giving me headaches. I need these corrected immediately as I can't work or drive safely without proper vision correction.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 19,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "My Tesla Model 3 has been at the service center for three weeks for what was supposed to be a simple software update. The lack of communication and extended timeline is frustrating. I need an update on when my vehicle will be ready and what's causing the delay.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 20,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "I purchased a wedding dress from David's Bridal six months ago and it arrived in the wrong size despite multiple fittings. My wedding is in two weeks and alterations at this point would be rushed and expensive. I need an emergency solution or full refund immediately.",
+        "suggestedMessage": "I'm very sorry to hear about the issue with your wedding dress, especially with your wedding so close. I understand how urgent and stressful this situation is. I am escalating your request for immediate review and will update you as soon as possible with a solution or next steps.",
+        "hasPerfectActions": false,
+        "hasCorrectNumberOfActions": false,
+        "hasValidTicketPriorityAction": false,
+        "hasValidTicketStatusAction": false,
+        "hasInvalidAction": false,
+        "actions": [],
+        "index": 21,
+        "suggestedMessageRating": 3,
+        "suggestedMessageRationale": "Empathetic and relevant, but misses required acknowledgment wording and request for details."
+      },
+      {
+        "comment": "The air fryer I bought from Williams Sonoma stopped working after just one week of use. It won't turn on at all despite being plugged in properly. This is clearly a manufacturing defect and I expect a full refund or replacement without having to pay return shipping.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 22,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment template exactly and is appropriately addressed."
+      },
+      {
+        "comment": "My Home Depot online order was split into multiple shipments without notification, and now one package is lost in transit. I need all the materials for my weekend project and can't proceed without the missing items. Please expedite replacement items or allow store pickup.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 23,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and remains appropriately generic."
+      },
+      {
+        "comment": "I've been double-charged for my Hulu subscription for the past three months and just noticed it on my credit card statement. I only have one account but somehow there are two separate charges each month. Please investigate and refund the duplicate charges immediately.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 24,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately addressed."
+      },
+      {
+        "comment": "The makeup palette I ordered from Sephora arrived completely shattered despite careful packaging. All the eyeshadow colors are mixed together and unusable. I was looking forward to trying this new product and need a replacement sent with extra protection.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 25,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment template exactly and is appropriately addressed."
+      },
+      {
+        "comment": "My Starbucks mobile order was prepared incorrectly - I ordered a venti iced coffee with oat milk but received a hot latte with regular milk. I have a dairy intolerance and couldn't drink it. I want a refund and better attention to detail from your baristas.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 26,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "The furniture I ordered from IKEA three months ago is still backordered with no clear delivery date. I've rearranged my entire living room plan around these pieces and need a definitive timeline. If you can't fulfill the order soon, I'll need to cancel and shop elsewhere.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 27,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "My Ring doorbell has been offline for five days despite having strong WiFi signal and power. I've followed all troubleshooting steps and even reset the device multiple times. This defeats the purpose of having security monitoring and I need technical support immediately.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 28,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately addressed."
+      },
+      {
+        "comment": "I returned shoes to DSW two weeks ago but was only given store credit instead of a refund to my original payment method. The receipt clearly shows I paid with a credit card and I need the money back, not store credit.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 29,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment template exactly and is appropriately addressed."
+      },
+      {
+        "comment": "My Grubhub order arrived 90 minutes late and stone cold. The driver couldn't find my address despite clear instructions and GPS. I had to reheat everything which ruined the quality. This is the third time this has happened and I want a full refund plus compensation.",
+        "suggestedMessage": "I'm very sorry to hear about your experience with your recent Grubhub order, especially given that this has happened multiple times. I understand how frustrating this must be. I will escalate your request for a full refund and additional compensation to our team for review. We appreciate your patience while we look into this and will update you as soon as possible.",
+        "hasPerfectActions": false,
+        "hasCorrectNumberOfActions": false,
+        "hasValidTicketPriorityAction": false,
+        "hasValidTicketStatusAction": false,
+        "hasInvalidAction": false,
+        "actions": [],
+        "index": 30,
+        "suggestedMessageRating": 2,
+        "suggestedMessageRationale": "Does not use required acknowledgment template and adds unsupported refund escalation details."
+      },
+      {
+        "comment": "The laptop bag I purchased from Samsonite has a defective zipper that keeps getting stuck and eventually broke completely. This happened within the first week of normal use. I travel frequently for work and need a reliable bag, so please send a replacement immediately.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details  \nnow and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 31,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and remains appropriately generic."
+      },
+      {
+        "comment": "My Microsoft Office subscription renewed automatically despite me canceling it last month. I have the email confirmation of my cancellation but was still charged $99.99. Please process the refund and ensure my account is properly canceled this time.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 32,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment template exactly and is appropriately addressed."
+      },
+      {
+        "comment": "The smart watch I bought from Fitbit isn't tracking my heart rate accurately - it's showing readings that are 20-30 BPM higher than my actual rate measured by medical devices. This makes the fitness tracking completely unreliable and I need a replacement unit.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details  \nnow and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 33,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and remains appropriately generic."
+      },
+      {
+        "comment": "I scheduled a lawn care service through TaskRabbit but the person never showed up and didn't cancel or communicate at all. I wasted my entire Saturday waiting and now my lawn is overgrown for an important event. I want a full refund and a reliable service provider.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 34,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately addressed."
+      },
+      {
+        "comment": "The protein powder I ordered from Amazon arrived past its expiration date. The seal was also broken which makes me question if it's been tampered with. I need a fresh replacement immediately as this is part of my daily nutrition routine.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 35,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately addressed."
+      },
+      {
+        "comment": "My Zoom Pro subscription was supposed to be canceled before the renewal date but I was charged anyway. I specifically downgraded to the free plan last month and have email confirmation. Please reverse this charge and confirm my account status.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 36,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately addressed."
+      },
+      {
+        "comment": "The gaming chair I purchased from Staples arrived with a broken hydraulic cylinder - it won't stay at the height I adjust it to and keeps sinking down. This makes it impossible to use for work. I need either a replacement part or complete replacement chair.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 37,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Message matches the required acknowledgment template and remains appropriately generic."
+      },
+      {
+        "comment": "I booked a car rental through Enterprise for my vacation but when I arrived, they didn't have my reserved vehicle class available. They tried to downgrade me to a smaller car for the same price. This is unacceptable and disrupts my travel plans.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 38,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "The skincare set I ordered from Ulta contained products that are clearly expired - the creams have separated and smell rancid. Using expired cosmetics could cause skin reactions. I need fresh products sent immediately and want to know how this happened.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 39,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly with appropriate personalization."
+      },
+      {
+        "comment": "My food delivery from Uber Eats included items with allergens that I specifically noted to avoid in my order instructions. I have a severe nut allergy and this could have been dangerous. The restaurant needs better training on handling dietary restrictions.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 40,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly, with appropriate personalization."
+      },
+      {
+        "comment": "The exercise bike I bought from Dick's Sporting Goods makes loud squeaking noises during use despite following all assembly instructions correctly. The noise is so loud it disturbs my neighbors in my apartment building. I need this fixed or replaced.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 41,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately generic."
+      },
+      {
+        "comment": "I've been trying to update my payment information on my Adobe Creative Suite subscription but the website keeps crashing when I submit the form. My subscription is about to expire and I can't afford any service interruption for my design business.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 42,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Message matches the required acknowledgment template exactly and is appropriately addressed."
+      },
+      {
+        "comment": "The winter coat I ordered from L.L.Bean was described as waterproof but water soaked through during the first rain. This is not acceptable for a product marketed for harsh weather conditions. I need a truly waterproof replacement or full refund.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 43,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and remains appropriately generic."
+      },
+      {
+        "comment": "My grocery delivery from Whole Foods included several items that expire tomorrow despite placing the order for a week's worth of groceries. The produce also looks overripe and wouldn't last more than a day. I need fresher replacements delivered.",
+        "suggestedMessage": "I'm sorry to hear that your grocery delivery included items that are expiring soon and overripe produce. Thank you for bringing this to our attention. I will escalate your request for fresher replacements and ensure this is resolved as quickly as possible. We appreciate your patience while we address this issue.",
+        "hasPerfectActions": false,
+        "hasCorrectNumberOfActions": false,
+        "hasValidTicketPriorityAction": false,
+        "hasValidTicketStatusAction": false,
+        "hasInvalidAction": false,
+        "actions": [],
+        "index": 44,
+        "suggestedMessageRating": 3,
+        "suggestedMessageRationale": "Relevant acknowledgment, but misses required template, request for details, and update promise."
+      },
+      {
+        "comment": "The coffee maker I purchased from Keurig stopped brewing after just two weeks of use. It powers on but won't pump water through the system. I've tried descaling and cleaning but nothing works. This seems like a manufacturing defect requiring replacement.",
+        "suggestedMessage": "Thank you for providing the details about your coffee maker issue and the troubleshooting steps you've already tried. We understand how frustrating this must be. We are reviewing your request for a replacement and will update you as soon as possible. If you have your purchase receipt or order number handy, please share it to help us process your request more quickly.",
+        "hasPerfectActions": false,
+        "hasCorrectNumberOfActions": false,
+        "hasValidTicketPriorityAction": false,
+        "hasValidTicketStatusAction": false,
+        "hasInvalidAction": false,
+        "actions": [],
+        "index": 45,
+        "suggestedMessageRating": 4,
+        "suggestedMessageRationale": "Relevant acknowledgment, but misses required template, greeting, signoff, and exact wording."
+      },
+      {
+        "comment": "I signed up for a personal training package at 24 Hour Fitness but my trainer has canceled three sessions in the last two weeks without adequate notice. This disrupts my fitness schedule and I'm not getting the service I paid for.",
+        "suggestedMessage": "Thank you for bringing this to our attention, and I'm sorry to hear about the repeated cancellations by your trainer. We understand how important consistency is for your fitness goals. I will escalate your concern to our management team so they can review your situation and work towards a resolution. If you have any additional details or preferences for rescheduling, please let us know.",
+        "hasPerfectActions": false,
+        "hasCorrectNumberOfActions": false,
+        "hasValidTicketPriorityAction": false,
+        "hasValidTicketStatusAction": false,
+        "hasInvalidAction": false,
+        "actions": [],
+        "index": 46,
+        "suggestedMessageRating": 3,
+        "suggestedMessageRationale": "Relevant acknowledgment, but misses required template, greeting, ownership, and update commitment."
+      },
+      {
+        "comment": "The online course I purchased from Udemy won't load properly - videos keep buffering and stopping every few minutes. I've tested my internet speed and it's fine with other streaming services. I need technical support to resolve this learning disruption.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 47,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly, with appropriate personalized placeholders filled."
+      },
+      {
+        "comment": "My meal kit delivery from Blue Apron arrived with spoiled vegetables and meat that smells off. The ice packs had melted completely suggesting temperature control issues during shipping. I can't cook any of the planned meals and need immediate replacements.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 48,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches required acknowledgment message exactly and is appropriately addressed."
+      },
+      {
+        "comment": "The headphones I bought from Sony developed connectivity issues after one month - they randomly disconnect from my phone and won't reconnect without restarting both devices. This interrupts my work calls and music listening constantly.",
+        "suggestedMessage": "I'm sorry to hear about the connectivity issues with your Sony headphones. To help you further, could you please let me know:\n\n\nThe model of your headphones and your phone\nAny troubleshooting steps you've already tried (like resetting the headphones or updating firmware)\nWhen and where you purchased the headphones\n\n\nWith this information, I can assist you with the next steps or guide you through warranty support if needed.\n",
+        "hasPerfectActions": false,
+        "hasCorrectNumberOfActions": false,
+        "hasValidTicketPriorityAction": false,
+        "hasValidTicketStatusAction": false,
+        "hasInvalidAction": false,
+        "actions": [],
+        "index": 49,
+        "suggestedMessageRating": 3,
+        "suggestedMessageRationale": "Asks useful details but misses required acknowledgment wording and structure."
+      },
+      {
+        "comment": "I purchased tickets for a concert through Ticketmaster but received an email saying the show was canceled, yet I can't find information about refunds. The event was supposed to be this weekend and I've made travel arrangements. I need clarity on the refund process.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 50,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "The mattress I ordered from Casper has a noticeable sag in the middle after just three months of use. This is causing back pain and poor sleep quality. I expected better durability from a premium brand and need this replaced under warranty.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 51,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "The smart thermostat I installed from Nest keeps losing connection to my WiFi and reverting to manual mode. This defeats the purpose of having a programmable smart device and is affecting my energy efficiency. I need technical support or replacement.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 52,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment template exactly and is appropriately addressed."
+      },
+      {
+        "comment": "I ordered a birthday cake from a local bakery through DoorDash but it arrived completely destroyed - frosting smeared everywhere and decorations fallen off. The birthday party is in two hours and I need an emergency solution or full refund.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 53,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment template exactly and remains appropriately generic."
+      },
+      {
+        "comment": "My streaming service subscription to HBO Max isn't working properly - shows buffer constantly and video quality is poor despite having high-speed internet. Other streaming services work fine on the same connection. I need technical resolution immediately.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 54,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and fits a generic request."
+      },
+      {
+        "comment": "The luggage I purchased from Travelpro for my business trip arrived damaged with a broken wheel and torn fabric. I leave for an important conference tomorrow and need this replaced or repaired immediately. The timing couldn't be worse.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 55,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches required acknowledgment message exactly and is appropriate despite undefined ticket comment."
+      },
+      {
+        "comment": "I've been charged for a premium feature on my LinkedIn account that I never signed up for. The $59.99 monthly charge appeared without any notification or consent. I want this subscription canceled and all charges refunded to my credit card.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 56,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment template exactly and is appropriately addressed."
+      },
+      {
+        "comment": "The baby stroller I bought from Babies'R'Us has a safety latch that keeps failing, causing the seat to unexpectedly recline. This is a serious safety hazard for my infant and I need an immediate replacement or recall information.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 57,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "My food delivery order from Postmates was delivered to the wrong address despite providing clear delivery instructions and apartment number. The driver marked it as delivered but I never received the food. I'm hungry and want a refund or redelivery.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 58,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment template exactly and is appropriately addressed."
+      },
+      {
+        "comment": "The wireless earbuds I purchased from Apple have battery life that's much shorter than advertised - they die after 2 hours instead of the promised 6 hours. This makes them impractical for my daily commute and work needs.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details  \nnow and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 59,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately generic."
+      },
+      {
+        "comment": "I booked a ride through Lyft but was charged a surge pricing rate that wasn't displayed when I requested the ride. The fare was triple the normal amount with no warning about surge pricing. This feels deceptive and I want the excess charges refunded.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 60,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and remains appropriately generic."
+      },
+      {
+        "comment": "The vitamin supplements I ordered from iHerb arrived in a damaged bottle with pills scattered loose in the shipping box. I'm concerned about contamination and need fresh, properly sealed products for my health regimen.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 61,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "My gas bill from PG&E seems unusually high this month - triple what I normally pay with no change in usage patterns. I suspect there might be a meter reading error or gas leak. I need someone to investigate this immediately for safety reasons.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 62,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately addressed."
+      },
+      {
+        "comment": "The online grocery order I placed with Walmart was supposed to include organic produce but I received conventional items instead. I specifically pay extra for organic and this substitution is unacceptable for my dietary requirements.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 63,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately addressed."
+      },
+      {
+        "comment": "My Netflix account was hacked and someone changed my password and email address. I can't access my own account anymore and there are shows being watched that I didn't authorize. I need help recovering my account and securing it properly.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details  \nnow and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 64,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately addressed."
+      },
+      {
+        "comment": "The power tools I ordered from Lowe's for my home renovation project arrived incomplete - missing several essential components shown in the product description. I can't complete my project without these parts and need them expedited.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 65,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "I purchased a gym membership from Planet Fitness with a promotion for no enrollment fee, but I was charged $39.99 anyway. The staff insisted this was normal despite my printed coupon showing the waived fee. I want this charge reversed.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 66,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and remains appropriately generic."
+      },
+      {
+        "comment": "The designer handbag I bought from Coach has a defective clasp that won't stay closed properly. This is a security issue as items could fall out, and it's embarrassing for such an expensive accessory. I need repair or replacement under warranty.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 67,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately addressed."
+      },
+      {
+        "comment": "My internet service from AT&T has been intermittent for two weeks with frequent outages during my work-from-home hours. Multiple technician visits haven't resolved the issue and I'm losing productivity. I need a permanent solution or service credit.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 68,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately addressed."
+      },
+      {
+        "comment": "The custom photo prints I ordered from Shutterfly came out with poor color quality - everything looks washed out and dull compared to the digital originals. These were meant as gifts and are unusable in their current state.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 69,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately addressed."
+      },
+      {
+        "comment": "I signed up for automatic delivery of pet food from Chewy but the last shipment never arrived despite being marked as delivered. My dog is almost out of food and I rely on this service to maintain his dietary consistency.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 70,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "The smartphone case I purchased from OtterBox cracked after dropping my phone from a normal height. This product is supposed to provide superior protection but failed at its basic function. I need a replacement and assurance of better quality control.",
+        "suggestedMessage": "I'm sorry to hear that your OtterBox case cracked after a normal drop. We want to make this right for you. Could you please provide your order number and, if possible, a photo of the damaged case? This will help us process your replacement request quickly. Thank you for bringing this to our attention.",
+        "hasPerfectActions": false,
+        "hasCorrectNumberOfActions": false,
+        "hasValidTicketPriorityAction": false,
+        "hasValidTicketStatusAction": false,
+        "hasInvalidAction": false,
+        "actions": [],
+        "index": 71,
+        "suggestedMessageRating": 3,
+        "suggestedMessageRationale": "Relevant issue response, but misses required acknowledgment wording and structure."
+      },
+      {
+        "comment": "My subscription box from Birchbox has been disappointing lately - mostly cheap samples instead of the quality products advertised. I'm considering canceling and want to know if there are options to improve the curation or get a partial refund.",
+        "suggestedMessage": "I'm sorry to hear that your recent Birchbox deliveries haven't met your expectations. We want you to enjoy your subscription! Could you share more about the types of products you would prefer to receive, or any specific issues you've noticed? I'll also check with our team to see what options are available for improving your box curation or providing a partial refund.",
+        "hasPerfectActions": false,
+        "hasCorrectNumberOfActions": false,
+        "hasValidTicketPriorityAction": false,
+        "hasValidTicketStatusAction": false,
+        "hasInvalidAction": false,
+        "actions": [],
+        "index": 72,
+        "suggestedMessageRating": 3,
+        "suggestedMessageRationale": "Relevant tone, but misses required acknowledgment wording and prescribed structure."
+      },
+      {
+        "comment": "The outdoor furniture I bought from Home Depot is already showing rust and deterioration after just one season of use. It was marketed as weather-resistant and should last much longer. I want replacement pieces or a refund for false advertising.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 73,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately addressed."
+      },
+      {
+        "comment": "I ordered prescription medication through my insurance's mail pharmacy but received the wrong dosage - 10mg instead of the prescribed 20mg. This could affect my health treatment and I need the correct medication expedited at no additional cost.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 74,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly, with appropriate personalization."
+      },
+      {
+        "comment": "The concert livestream I paid for through the venue's website had constant technical issues - audio cutting out and video freezing throughout the performance. I missed most of the show and want a full refund for this poor streaming experience.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 75,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and fits the request context."
+      },
+      {
+        "comment": "My car repair at the dealership took twice as long as estimated and cost 50% more than quoted. They claim additional problems were discovered, but I suspect upselling tactics. I want detailed documentation of all work performed and justification for extra charges.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 76,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment template exactly and remains appropriately generic."
+      },
+      {
+        "comment": "The wedding cake I ordered from a bakery was delivered with the wrong design and flavors despite multiple consultations and a signed contract. My wedding is tomorrow and this is a disaster. I need an emergency solution or substantial compensation.",
+        "suggestedMessage": "I'm very sorry to hear about the issue with your wedding cake, especially given the importance of your event tomorrow. I understand how urgent and distressing this situation is. I am escalating your request immediately so we can find the best possible solution or compensation for you as quickly as possible.",
+        "hasPerfectActions": false,
+        "hasCorrectNumberOfActions": false,
+        "hasValidTicketPriorityAction": false,
+        "hasValidTicketStatusAction": false,
+        "hasInvalidAction": true,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'Urgent'"
+          }
+        ],
+        "index": 77,
+        "suggestedMessageRating": 2,
+        "suggestedMessageRationale": "Empathetic but misses required acknowledgment template and asks for no additional details."
+      },
+      {
+        "comment": "I purchased a smart doorbell from Ring but it's not compatible with my existing chime system despite assurances from the sales representative that it would work. I need either a compatible adapter or full refund for the misinformation.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 78,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly, with appropriate personalization."
+      },
+      {
+        "comment": "My meal delivery subscription from HelloFresh has been consistently late for the past month, arriving on Saturdays instead of Wednesdays. This disrupts my meal planning and some ingredients spoil before I can use them. I need reliable delivery scheduling.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 79,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Message matches required acknowledgment template exactly and remains appropriately generic."
+      },
+      {
+        "comment": "The hiking boots I bought from REI developed sole separation after just three hiking trips. These were expensive boots rated for rugged terrain and should not fail so quickly. I need replacement boots before my next scheduled hiking expedition.",
+        "suggestedMessage": "I'm sorry to hear about the issue with your hiking boots. To help you get a replacement as quickly as possible, could you please provide your order number and, if possible, a photo of the damaged boots? This will help us process your request efficiently.",
+        "hasPerfectActions": false,
+        "hasCorrectNumberOfActions": false,
+        "hasValidTicketPriorityAction": false,
+        "hasValidTicketStatusAction": false,
+        "hasInvalidAction": false,
+        "actions": [],
+        "index": 80,
+        "suggestedMessageRating": 3,
+        "suggestedMessageRationale": "Requests details helpfully but omits required acknowledgment wording and full structure."
+      },
+      {
+        "comment": "I booked a hotel room through Hotels.com but when I arrived, they had no record of my reservation despite having a confirmation number. It's peak season and now I can't find alternative accommodations. This has ruined my vacation plans.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 81,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately addressed."
+      },
+      {
+        "comment": "My subscription to The Wall Street Journal renewed automatically despite my attempt to cancel it before the renewal date. I called customer service but they said cancellation requests must be made 30 days in advance, which wasn't clearly communicated.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 82,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches required acknowledgment template exactly and is appropriately addressed."
+      },
+      {
+        "comment": "The custom t-shirts I ordered from a printing company for my team event arrived with incorrect designs and poor print quality. The colors are wrong and some text is illegible. The event is next week and I need proper reprints immediately.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 83,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches required acknowledgment message exactly, with correct personalization and structure."
+      },
+      {
+        "comment": "I purchased a warranty extension for my appliance from Best Buy but when I needed service, they claim the warranty doesn't cover the specific issue I'm experiencing. This seems like warranty fraud as the problem should clearly be covered.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details  \nnow and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 84,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "My credit card was charged for a Spotify premium family plan but I only signed up for individual premium. I don't need multiple accounts and want the plan downgraded with a refund for the price difference.",
+        "suggestedMessage": "Thank you for reaching out. I understand you were charged for a Spotify Premium Family plan instead of an Individual plan and would like to downgrade and receive a refund for the price difference. I am reviewing your request and will update you as soon as possible.",
+        "hasPerfectActions": false,
+        "hasCorrectNumberOfActions": false,
+        "hasValidTicketPriorityAction": false,
+        "hasValidTicketStatusAction": false,
+        "hasInvalidAction": false,
+        "actions": [],
+        "index": 85,
+        "suggestedMessageRating": 4,
+        "suggestedMessageRationale": "Relevant acknowledgment, but misses required template, greeting, details request, and sign-off."
+      },
+      {
+        "comment": "The furniture assembly service I booked through Wayfair never showed up for the scheduled appointment. I took time off work and rearranged my schedule for nothing. Now I'm stuck with unassembled furniture and wasted vacation time.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 86,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately addressed."
+      },
+      {
+        "comment": "I ordered a replacement phone battery from iFixit but received the wrong model number. The battery doesn't fit my device and I wasted time attempting installation. I need the correct battery expedited as my phone is barely functional.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 87,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "The house cleaning service I hired through Thumbtack did an incomplete job - they missed entire rooms and left obvious dirt and dust in plain sight. I paid for a deep cleaning but got basic surface cleaning at best.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 88,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and remains appropriately generic."
+      },
+      {
+        "comment": "My auto insurance claim with State Farm is taking much longer than the estimated timeframe. It's been six weeks since my accident and I still don't have approval for repairs. My rental car coverage is expiring and I need resolution.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 89,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately addressed."
+      },
+      {
+        "comment": "The online course materials I purchased from MasterClass won't download properly - they get stuck at 50% completion every time. I've tried different devices and internet connections but the problem persists. I need technical support immediately.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 90,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "The paint I ordered from Sherwin-Williams was supposed to be color-matched to a sample I provided, but it's completely wrong - bright yellow instead of the cream color I requested. I've already started painting and need the correct color urgently.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 91,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment template exactly and is appropriately addressed."
+      },
+      {
+        "comment": "My dental insurance through Cigna is denying coverage for a procedure that was pre-approved last month. The dentist's office says coverage requirements changed without notification. I need clarification on my benefits and coverage for this necessary treatment.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 92,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately addressed."
+      },
+      {
+        "comment": "The vacation rental I booked through Airbnb was nothing like the photos - dirty, outdated, and missing basic amenities. The host is unresponsive to my concerns and I had to find alternative accommodation. I want a full refund for false advertising.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 93,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "I purchased a smart home security system from ADT but the installation technician damaged my wall and didn't complete the setup properly. Some sensors aren't working and there's a hole in my drywall. I need proper installation and wall repair.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 94,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "The prescription glasses I ordered online from Zenni Optical arrived with a scratch across one lens and don't match my prescription. I can't see clearly and suspect the lab made an error in manufacturing. I need replacement lenses immediately.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 95,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly, with correct personalization."
+      },
+      {
+        "comment": "My car rental from Budget was supposed to be a compact car but they only had SUVs available at pickup. They charged me the higher rate without offering alternatives or compensation for the upgrade I didn't request. This increased my travel costs significantly.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details  \nnow and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 96,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Message matches the required acknowledgment template exactly and is contextually appropriate."
+      },
+      {
+        "comment": "The meal kit I received from Sun Basket was missing key ingredients for two of the three recipes, making them impossible to prepare. I specifically chose this service for convenience but now have to shop for additional ingredients anyway.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 97,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "I ordered a birthday gift from Etsy with plenty of time for delivery, but it arrived three days after the birthday party. The seller didn't communicate shipping delays and now the surprise is ruined. I want a partial refund for the late delivery.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,  \nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 98,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately formatted."
+      },
+      {
+        "comment": "The wireless router I bought from Netgear keeps dropping internet connection every few hours requiring manual resets. This interrupts my work video calls and online meetings constantly. I need either a firmware fix or hardware replacement.",
+        "suggestedMessage": "Hi William,\n\nThank you for contacting us. I've received your request and will be handling it personally. I'm reviewing the details now and will investigate the best solution for you.\n\nIf you have any additional context, screenshots, or details that might help, please share them in your reply.\n\nI'll keep you updated on my progress.\n\nBest regards,\nJinfan",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 99,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the required acknowledgment message exactly and is appropriately formatted."
+      }
+    ]
+  }
+]

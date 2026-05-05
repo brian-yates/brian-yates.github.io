@@ -3,11 +3,11 @@
     "procedureName": "five",
     "procedure": "Use this procedure for any new customer request that requires initial acknowledgment and prioritization.\n\nAcknowledge the customer's request\nSuggested reply:\n\n\"Hi {{ticket.requester.first_name}},\n\nThanks for reaching out — we've received your request and are reviewing it now. We'll take a look and get back to you as soon as we can.\n\nIf you have any additional details or screenshots that might help, feel free to reply to this ticket.\n\nBest,\n\n{{agent.first_name}}\"\n\nUpdate the ticket priority to High.\n\nUpdate the ticket status to In Progress.",
     "totals": {
-      "totalTickets": 99,
+      "totalTickets": 100,
       "totalTicketsMissingSuggestedMessages": 0,
       "totalTicketsMissingRequiredActions": 24,
       "totalTicketsWithInvalidActions": 0,
-      "totalSuggestedMessageScore": 852
+      "totalSuggestedMessageScore": 862
     },
     "data": [
       {
@@ -450,6 +450,28 @@
         "suggestedMessageRationale": "Matches the acknowledgment template exactly and is appropriate despite missing ticket context."
       },
       {
+        "comment": "I purchased a year-long membership at your fitness center but you've been closed for renovations for the past six weeks with no clear reopening date. I feel like I should receive a credit or extension on my membership since I'm paying for services I can't use.",
+        "suggestedMessage": "Hi William,\n\nThanks for reaching out — we've received your request and are reviewing it now. We'll take a look and get back to you as soon as we can.\n\nIf you have any additional details or screenshots that might help, feel free to reply to this ticket.\n\nBest,\nBrian",
+        "hasPerfectActions": true,
+        "hasCorrectNumberOfActions": true,
+        "hasValidTicketPriorityAction": true,
+        "hasValidTicketStatusAction": true,
+        "hasInvalidAction": false,
+        "actions": [
+          {
+            "isValidPrefix": true,
+            "text": "Change the ticket priority to 'High'"
+          },
+          {
+            "isValidPrefix": true,
+            "text": "Change status to 'In Progress'"
+          }
+        ],
+        "index": 22,
+        "suggestedMessageRating": 10,
+        "suggestedMessageRationale": "Matches the acknowledgment template exactly and remains appropriately general."
+      },
+      {
         "comment": "My food delivery from Grubhub arrived completely cold and the order was wrong. I ordered chicken teriyaki but received beef instead, and I'm allergic to beef. This is both disappointing and potentially dangerous. I need a full refund and want to report this serious error.",
         "suggestedMessage": "Hi William,\n\nThanks for reaching out — we've received your request and are reviewing it now. We'll take a look and get back to you as soon as we can.\n\nIf you have any additional details or screenshots that might help, feel free to reply to this ticket.\n\nBest,\n\nBrian",
         "hasPerfectActions": true,
@@ -469,7 +491,7 @@
         ],
         "index": 23,
         "suggestedMessageRating": 10,
-        "suggestedMessageRationale": "Matches the prescribed acknowledgment template exactly and is appropriately generic."
+        "suggestedMessageRationale": "Matches the suggested acknowledgment template exactly and is appropriate despite missing comment context."
       },
       {
         "comment": "I bought a smart TV from Costco last week but it won't connect to my WiFi network. I've tried all the troubleshooting steps in the manual and contacted my internet provider, who confirmed the issue is with the TV. I'd like to return this defective unit and get a different model.",
@@ -491,7 +513,7 @@
         ],
         "index": 24,
         "suggestedMessageRating": 9,
-        "suggestedMessageRationale": "Matches acknowledgment template closely, but ticket context is undefined and extra specificity is unsupported."
+        "suggestedMessageRationale": "Follows template closely; minor unsupported specificity despite missing ticket comment context."
       },
       {
         "comment": "Dear Support Team, I've been charged for an Apple Music subscription that I cancelled six months ago. I have email confirmation of the cancellation but the charges have continued. Please stop these recurring charges immediately and refund the unauthorized payments to my account.",
@@ -513,7 +535,7 @@
         ],
         "index": 25,
         "suggestedMessageRating": 10,
-        "suggestedMessageRationale": "Matches the suggested acknowledgment template exactly and is appropriately generic."
+        "suggestedMessageRationale": "Matches the template exactly and appropriately acknowledges the new customer request."
       },
       {
         "comment": "I ordered a birthday cake from your bakery for pickup today but when I arrived, you didn't have my order in your system. I placed and paid for this order a week ago and have the confirmation email to prove it. The party is tonight and I need this resolved immediately.",
@@ -526,7 +548,7 @@
         "actions": [],
         "index": 26,
         "suggestedMessageRating": 4,
-        "suggestedMessageRationale": "Empathetic and relevant, but deviates substantially from the required acknowledgment template."
+        "suggestedMessageRationale": "Apologetic and responsive, but misses template structure and relies on absent ticket context."
       },
       {
         "comment": "My AT&T internet service has been extremely slow for the past two weeks, making it impossible to work from home effectively. I'm paying for high-speed internet but getting dial-up speeds. Multiple technicians have visited but the problem keeps recurring. I'm considering switching providers if this isn't fixed soon.",
